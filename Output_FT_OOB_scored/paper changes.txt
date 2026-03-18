@@ -1,0 +1,13 @@
+- Change the format of the paper to ms doc
+- Remove all bullets
+- reduce the number of references as possible (6 pages max)
+- Change Ref to journals if available
+- create a mathematical representation of the training optimization, or include a note in the Design Rationale about the current methodology that could be more formalize in future research where we can include more LLMs in order to avoid bias on one/two models only.
+
+- Send the latest version to Dr. Li for final review. (by 02/07 but not later than 02/08)
+- Register as IEEE member IEEE.org as student member.
+- Upload the document on the Camera-Ready pdf
+- Register to the conference.
+
+- Prepare for the presentation.
+- Show examples of the training dataset iterations and attacks.

@@ -1,0 +1,58 @@
+\bibitem{b1} Andriushchenko, M., Croce, F., Flammarion, N. (2024). Jailbreaking leading safety-aligned llms with simple adaptive attacks. arXiv preprint arXiv:2404.02151.
+\bibitem{b2} Bhardwaj, R., Poria, S. (2023). Red-teaming large language models using chain of utterances for safety-alignment. arXiv preprint arXiv:2308.09662.
+\bibitem{b3} Bianchi, F., Suzgun, M., Attanasio, G., Röttger, P., Jurafsky, D., Hashimoto, T., and Zou, J. (2023). Safety-tuned llamas: Lessons from improving the safety of large language models that follow instructions. arXiv preprint arXiv:2309.07875.
+\bibitem{b4} Brundage, M., Avin, S., Clark, J., Toner, H., Eckersley, P., Garfinkel, B., ... and Amodei, D. (2018). The malicious use of artificial intelligence: Forecasting, prevention, and mitigation. arXiv preprint arXiv:1802.07228.
+\bibitem{b5} Casper, S., Davies, X., Shi, C., Gilbert, T. K., Scheurer, J., Rando, J., ... and Hadfield-Menell, D. (2023). Open problems and fundamental limitations of reinforcement learning from human feedback. arXiv preprint arXiv:2307.15217.
+\bibitem{b6} Chao, P., Robey, A., Dobriban, E., Hassani, H., Pappas, G. J., and Wong, E. (2024). Jailbreaking black box large language models in twenty queries. https://arxiv. org/abs/2310.08419
+\bibitem{b7} Chaudhari, S., Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K., ... and Castro da Silva, B. (2024). Rlhf deciphered: A critical analysis of reinforcement learning from human feedback for llms. ACM Computing Surveys.
+\bibitem{b8} Chennabasappa, S., Nikolaidis, C., Song, D., Molnar, D., Ding, S., Wan, S., ... and Saxe, J. (2025). Llamafirewall: An open source guardrail system for building secure ai agents. arXiv preprint arXiv:2505.03574.
+\bibitem{b9} Chu, J., Liu, Y., Yang, Z., Shen, X., Backes, M., and Zhang, Y. (2024). Comprehensive assessment of jailbreak attacks against llms. https://arxiv.org/abs/2402.05668
+\bibitem{b10} Deng, B., Wang, W., Feng, F., Deng, Y., Wang, Q., and He, X. (2023). Attack prompt generation for red teaming and defending large language models. arXiv preprint arXiv:2310.12505.
+\bibitem{b11} Du, Y., Zhao, S., Ma, M., Chen, Y., and Qin, B. (2023). Analyzing the inherent response tendency of llms: Real-world instructions-driven jailbreak. arXiv preprint arXiv:2312.04127.
+\bibitem{b12} Geisler, S., Wollschläger, T., Abdalla, M. H. I., Gasteiger, J., and Günnemann, S. (2024). Attacking large language models with projected gradient descent. arXiv preprint arXiv:2402.09154.
+\bibitem{b13} Guo, X., Yu, F., Zhang, H., Qin, L., and Hu, B. (2024). Cold-attack: Jailbreaking llms with stealthiness and controllability. arXiv preprint arXiv:2402.08679.
+\bibitem{b14} Guo, D., Yang, D., Zhang, H., Song, J., Zhang, R., Xu, R., ... and He, Y. (2025). Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning. arXiv preprint arXiv:2501.12948.
+\bibitem{b15} Gupta, A. (2025). Prompt Injection Generation Using Small Language Models with Reinforcement Learning with Artificial Intelligence Feedback (Doctoral dissertation, Massachusetts Institute of Technology).
+\bibitem{b16} Hayase, J., Borevković, E., Carlini, N., Tramèr, F., and Nasr, M. (2024). Query-based adversarial prompt generation. Advances in Neural Information Processing Systems, 37, 128260-128279.
+\bibitem{b17} Huang, Y., Gupta, S., Xia, M., Li, K., and Chen, D. (2023). Catastrophic jailbreak of open-source llms via exploiting generation. arXiv preprint arXiv:2310.06987.
+\bibitem{b18} Islam, M. R., Dhar, N., Deng, B., Nguyen, T. N., He, S., and Suo, K. (2024, November). Characterizing and Understanding the Performance of Small Language Models on Edge Devices. In 2024 IEEE International Performance, Computing, and Communications Conference (IPCCC) (pp. 1-10). IEEE.
+\bibitem{b19} Jones, E., Dragan, A., Raghunathan, A., and Steinhardt, J. (2023, July). Automatically auditing large language models via discrete optimization. In International Conference on Machine Learning (pp. 15307-15329). PMLR.
+\bibitem{b20} Lermen, S., Rogers-Smith, C., and Ladish, J. (2023). LoRA fine-tuning efficiently undoes safety training in Llama 2-Chat 70B. arXiv.
+\bibitem{b21} Li, S., Ngai, E. C. H., Ye, F., and Voigt, T. (2024). Peft-as-an-attack! jailbreaking language models during federated parameter-efficient fine-tuning. arXiv preprint arXiv:2411.19335.
+\bibitem{b22} Liu, X., Li, P., Suh, E., Vorobeychik, Y., Mao, Z., Jha, S., McDaniel, P., Sun, H., Li, B., and Xiao, C. (2024). Autodan-turbo: A lifelong agent for strategy self-exploration to jailbreak llms. https://arxiv.org/abs/2410.05295 
+\bibitem{b23} Mangaokar, N., Hooda, A., Choi, J., Chandrashekaran, S., Fawaz, K., Jha, S., and Prakash, A. (2024). Prp: Propagating universal perturbations to attack large language model guard-rails. arXiv preprint arXiv:2402.15911.
+\bibitem{b24} Matan, P., and Velvizhy, P. (2025, April). A Comprehensive Review of Supervised Fine-Tuning for Large Language Models in Creative Applications and Content Moderation. In 2025 International Conference on Inventive Computation Technologies (ICICT) (pp. 1294-1299). IEEE.
+\bibitem{b25} Mehrotra, A., Zampetakis, M., Kassianik, P., Nelson, B., Anderson, H., Singer, Y., and Karbasi, A. (2024). Tree of attacks: Jailbreaking black-box llms automatically. https://arxiv.org/abs/2312.02119
+\bibitem{b26} Mekala, D., Nguyen, A., and Shang, J. (2024). Smaller language models are capable of selecting instruction-tuning training data for larger language models. arXiv preprint arXiv:2402.10430.
+\bibitem{b27} Mylrea, M. (2025). The generative AI weapon of mass destruction: Evolving disinformation threats, vulnerabilities, and mitigation frameworks. In Interdependent Human-Machine Teams (pp. 315-347). Academic Press.
+\bibitem{b28} Naidu, G., Zuva, T., and Sibanda, E. M. (2023, April). A review of evaluation metrics in machine learning algorithms. In Computer science on-line conference (pp. 15-25). Cham: Springer International Publishing.
+\bibitem{b29} Parthasarathy, V. B., Zafar, A., Khan, A., and Shahid, A. (2024). The ultimate guide to fine-tuning llms from basics to breakthroughs: An exhaustive review of technologies, research, best practices, applied research challenges and opportunities. arXiv preprint arXiv:2408.13296.
+\bibitem{b30} Peng, B., Chen, K., Niu, Q., Bi, Z., Liu, M., Feng, P., ... and Yin, C. H. (2024). Jailbreaking and mitigation of vulnerabilities in large language models. arXiv preprint arXiv:2410.15236.
+\bibitem{b31} Qi, X., Zeng, Y., Xie, T., Chen, P. Y., Jia, R., Mittal, P., and Henderson, P. (2023). Fine-tuning aligned language models compromises safety, even when users do not intend to!. arXiv preprint arXiv:2310.03693.
+\bibitem{b32} Shen, X., Chen, Z., Backes, M., Shen, Y., and Zhang, Y. (2024, December). " do anything now": Characterizing and evaluating in-the-wild jailbreak prompts on large language models. In Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (pp. 1671-1685).
+\bibitem{b33} Sitawarin, C., Mu, N., Wagner, D., and Araujo, A. (2024). Pal: Proxy-guided black-box attack on large language models. arXiv preprint arXiv:2402.09674.
+\bibitem{b34} Tolosana, R., Vera-Rodriguez, R., Fierrez, J., Morales, A., and Ortega-Garcia, J. D. beyond: A survey of face manipulation and fake detection. arXiv 2020. arXiv preprint arXiv:2001.00179.
+\bibitem{b35} Wang, F., Zhang, Z., Zhang, X., Wu, Z., Mo, T., Lu, Q., ... and Wang, S. (2024). A comprehensive survey of small language models in the era of large language models: Techniques, enhancements, applications, collaboration with llms, and trustworthiness. arXiv preprint arXiv:2411.03350.
+\bibitem{b36} Wang, H., Li, H., Huang, M., and Sha, L. (2024). Asetf: A novel method for jailbreak attack on llms through translate suffix embeddings. arXiv preprint arXiv:2402.16006.
+\bibitem{b37} Wang, J., Liu, Z., Park, K. H., Jiang, Z., Zheng, Z., Wu, Z., ... and Xiao, C. (2023). Adversarial demonstration attacks on large language models. arXiv preprint arXiv:2305.14950.
+\bibitem{b38} Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., ... and Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35, 24824-24837.
+\bibitem{b39} Whitmore, S., Harrington, C., and Pritchard, E. (2024). Assessing the ineffectiveness of synthetic reinforcement learning feedback in fine-tuning large language models.
+\bibitem{b40} Yang, X., Wang, X., Zhang, Q., Petzold, L., Wang, W. Y., Zhao, X., and Lin, D. (2023). Shadow alignment: The ease of subverting safely-aligned language models. arXiv preprint arXiv:2310.02949.
+\bibitem{b41} Yi, S., Liu, Y., Sun, Z., Cong, T., He, X., Song, J., ... and Li, Q. (2024). Jailbreak attacks and defenses against large language models: A survey. arXiv preprint arXiv:2407.04295.
+\bibitem{b42} Yu, J., Lin, X., Yu, Z., and Xing, X. (2024). Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts. https://arxiv.org/abs/2309.10253
+\bibitem{b43} Zellers, R., Holtzman, A., Rashkin, H., Bisk, Y., Farhadi, A., Roesner, F., and Choi, Y. (2019). Defending against neural fake news. Advances in neural information processing systems, 32.
+\bibitem{b44} Zhan, Q., Fang, R., Bindu, R., Gupta, A., Hashimoto, T., and Kang, D. (2023). Removing rlhf protections in gpt-4 via fine-tuning. arXiv preprint arXiv:2311.05553.
+\bibitem{b45} Zhang, Q., Liu, Z., and Pan, S. (2025). The rise of small language models. IEEE Intelligent Systems, 40(1), 30-37.
+\bibitem{b46} Zhang, W., Xu, H., Wang, Z., He, Z., Zhu, Z., and Ren, K. (2025). Can Small Language Models Reliably Resist Jailbreak Attacks? A Comprehensive Evaluation. arXiv preprint arXiv:2503.06519.
+\bibitem{b47} Zhang, Z., Shen, G., Tao, G., Cheng, S., and Zhang, X. (2023). Make them spill the beans! coercive knowledge extraction from (production) llms. arXiv preprint arXiv:2312.04782.
+\bibitem{b48} Zhao, X., Yang, X., Pang, T., Du, C., Li, L., Wang, Y. X., and Wang, W. Y. (2024). Weak-to-strong jailbreaking on large language models. arXiv preprint arXiv:2401.17256.
+\bibitem{b49} Zheng, A., Rana, M., and Stolcke, A. (2024). Lightweight safety guardrails using fine-tuned bert embeddings. arXiv preprint arXiv:2411.14398.
+\bibitem{b50} Zhou, Y., Huang, Z., Lu, F., Qin, Z., and Wang, W. (2024). Don't Say No: Jailbreaking LLM by Suppressing Refusal. arXiv preprint arXiv:2404.16369.
+\bibitem{b51} Zhu, S., Zhang, R., An, B., Wu, G., Barrow, J., Wang, Z., ... and Sun, T. (2023). AutoDAN: interpretable gradient-based adversarial attacks on large language models. arXiv preprint arXiv:2310.15140.
+\bibitem{b52} Zou, A., Wang, Z., Carlini, N., Nasr, M., Kolter, J. Z., and Fredrikson, M. (2023). Universal and transferable adversarial attacks on aligned language models. arXiv preprint arXiv:2307.15043.
+\bibitem{b53} https://huggingface.co/Edcastro/tinyllama-edcastr_JavaScript-v2 (accessed Jan. 5, 2026).
+\bibitem{b54} https://huggingface.co/Edcastro/tinyllama-edcastr_Guardrail-v1 (accessed Jan. 5, 2026).
+\bibitem{b55} https://github.com/Seb4stian/NSU_SLM_SecureFineTune/blob/main/JavaScriptModelTraining/JavaScriptLibraryDataset_with_responses.jsonl (accessed Jan. 5, 2026).
+\bibitem{b56} https://github.com/Seb4stian/NSU_SLM_SecureFineTune/blob/main/Guardrail%20SLM%20Training%20Dataset%20preparation/Guardrail_dataset.jsonl (accessed Jan. 5, 2026).
+\bibitem{b57} https://github.com/Seb4stian/NSU_SLM_SecureFineTune/blob/main/WrapperModel/Guardrail_training.ipynb (accessed Jan. 5, 2026).
+\bibitem{b58} https://huggingface.co/meta-llama/Llama-3.1-8B (accessed Jan. 5, 2026).

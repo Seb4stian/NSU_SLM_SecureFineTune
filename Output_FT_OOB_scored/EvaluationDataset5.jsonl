@@ -1,0 +1,337 @@
+{"Question":"Which JavaScript library is widely used for creating responsive, touch-enabled image sliders and carousels?","Answer":"Slick Carousel"}
+{"Question":"Which JavaScript library is often used for validating user input on the client side in web forms?","Answer":"Validator.js"}
+{"Question":"In JavaScript, what library is often used to convert Markdown text into HTML for display in web pages?","Answer":"marked"}
+{"Question":"Which JavaScript library is known for being a lightweight, fast in-memory database that supports quick querying and optional persistence in JavaScript applications?","Answer":"LokiJS"}
+{"Question":"Which widely used JavaScript library is often chosen for managing form state and performing form validation in React apps?","Answer":"Formik"}
+{"Question":"Which JavaScript library is frequently used to add polyfills for modern ECMAScript (ES) features so they work in older browsers or runtimes?","Answer":"core-js"}
+{"Question":"Which JavaScript library is often used to create and manage scroll-based reveal animations as a user moves down a page?","Answer":"ScrollReveal"}
+{"Question":"Which JavaScript library is often used in React projects to perform isomorphic HTTP requests that run the same way in both the browser and on the server?","Answer":"isomorphic-fetch"}
+{"Question":"Which JavaScript library is often used to convert XML data into JavaScript objects for use in XML parsing and processing workflows?","Answer":"xml2js"}
+{"Question":"Which JavaScript library is frequently used to manage internationalization (i18n) and localization (l10n) features in modern web apps?","Answer":"i18next"}
+{"Question":"In an Angular project, which built-in module is typically imported to build reactive forms and leverage built-in validation features?","Answer":"Reactive Forms"}
+{"Question":"In JavaScript, which library is widely used to simplify creating, reading, and deleting browser cookies?","Answer":"js-cookie"}
+{"Question":"Which JavaScript library provides a simple, asynchronous storage API that abstracts IndexedDB (with fallbacks like WebSQL/localStorage) for easier client-side persistence?","Answer":"localForage"}
+{"Question":"Which JavaScript library is often used to identify a visitor’s browser and device information?","Answer":"Detect.js"}
+{"Question":"What JavaScript utility library offers a `debounce` function to delay and limit how often a callback runs (commonly paired with throttling)?","Answer":"lodash.debounce"}
+{"Question":"Which JavaScript library is widely used for building interactive HTML tables that support sorting, searching, and pagination?","Answer":"DataTables"}
+{"Question":"Which JavaScript library can be used in a web browser to scan barcodes or QR codes in real time using the device’s camera?","Answer":"QuaggaJS"}
+{"Question":"When working in a Node.js application, which JavaScript library lets you execute and control shell commands directly from your JavaScript code?","Answer":"shelljs"}
+{"Question":"Which JavaScript library is commonly used to apply syntax highlighting to code blocks embedded in a web page?","Answer":"highlight.js"}
+{"Question":"When building a React app, which JavaScript library is often used to simplify immutable state updates by allowing you to write mutating-style code safely?","Answer":"immer"}
+{"Question":"Which JavaScript library provides a small, lightweight wrapper to simplify using browser storage APIs such as localStorage and sessionStorage?","Answer":"store.js"}
+{"Question":"Which JavaScript library is often chosen for creating reusable, composable form input components while keeping re-renders to a minimum?","Answer":"react-hook-form"}
+{"Question":"Which JavaScript library is often used to add website analytics tracking code to a site?","Answer":"analytics.js"}
+{"Question":"Which JavaScript library helps you easily format, calculate, and display currency values within your application?","Answer":"currency.js"}
+{"Question":"In a React application, which JavaScript library can you use to implement sortable columns in a data table?","Answer":"react-table"}
+{"Question":"Which JavaScript library lets you attach fully customizable right-click context menus to chosen HTML elements on a page?","Answer":"react-contextmenu"}
+{"Question":"Which JavaScript library can be used in a web app to both create and read (decode) QR codes?","Answer":"qr.js"}
+{"Question":"Which JavaScript library is frequently used to test React components by interacting with and querying the DOM to confirm their behavior and rendered results?","Answer":"@testing-library/react"}
+{"Question":"In JavaScript, which library is often used to recognize touch gestures such as swipes and pans for navigating between images or pages?","Answer":"hammer.js"}
+{"Question":"Which JavaScript library enhances client-side navigation by capturing link clicks and form submissions to load pages via AJAX without a full reload?","Answer":"Turbolinks"}
+{"Question":"In JavaScript web applications, which library is often used to show a thin loading progress bar at the top during AJAX requests?","Answer":"NProgress"}
+{"Question":"Which JavaScript library is often used to add AJAX-powered drag-and-drop file upload functionality to a web page?","Answer":"Dropzone"}
+{"Question":"Which JavaScript library is commonly used to enhance HTML tables with AJAX-driven pagination, column sorting, and search filtering?","Answer":"DataTables"}
+{"Question":"In many JavaScript apps, which library is often used to streamline RESTful API calls over AJAX?","Answer":"Restangular"}
+{"Question":"In many single-page applications (SPAs), which JavaScript library is frequently used to handle AJAX-driven authentication and authorization?","Answer":"Passport.js"}
+{"Question":"Which JavaScript library enables AJAX-based drag-and-drop file uploads and supports customizable file preview templates?","Answer":"Fine Uploader"}
+{"Question":"Which JavaScript library helps you add an AJAX-powered infinite scrolling feature to a webpage so more content loads automatically as you scroll?","Answer":"Infinite Ajax Scroll"}
+{"Question":"In a Phoenix-based web app, which JavaScript library/client is used to connect to Phoenix Channels (wrapping WebSockets and fallback transport) for real-time updates?","Answer":"Phoenix Channels"}
+{"Question":"Which JavaScript library allows you to drag-and-drop to rearrange items in a list and then sync the new order to the server using AJAX?","Answer":"SortableJS"}
+{"Question":"Which lightweight JavaScript library lets you dynamically fetch and display tabbed interface content using AJAX calls?","Answer":"tabby"}
+{"Question":"Which JavaScript library is commonly used to add smooth animation effects to DOM changes in an AJAX-powered web interface?","Answer":"Anime.js"}
+{"Question":"Which JavaScript library offers drag-and-drop file uploads with AJAX support, progress tracking, and a simple developer-friendly API?","Answer":"Uppy"}
+{"Question":"In JavaScript unit testing, which library lets you intercept and mock HTTP/AJAX requests to emulate server responses?","Answer":"nock"}
+{"Question":"In a Web Components-focused front-end architecture, which JavaScript library is frequently chosen to define reusable components and manage in-component logic such as fetching data via AJAX?","Answer":"LitElement"}
+{"Question":"Which JavaScript library can you use to quickly create a local mock REST API for front-end development, providing fake endpoints to test AJAX/fetch requests?","Answer":"json-server"}
+{"Question":"Which JavaScript library offers a lightweight, easy-to-use API for lazy-loading images, including those injected dynamically into the page (e.g., via AJAX)?","Answer":"lozad.js"}
+{"Question":"Which JavaScript library offers a Promise-based way to perform JSONP requests as an alternative to using XMLHttpRequest for AJAX-style calls?","Answer":"fetch-jsonp"}
+{"Question":"In a multilingual JavaScript application, which library can you use to manage localization and translate strings for content fetched asynchronously (e.g., via AJAX calls)?","Answer":"i18next"}
+{"Question":"Which JavaScript library provides ready-made components and APIs for adding AJAX-based chat and messaging functionality to web applications?","Answer":"TalkJS"}
+{"Question":"Which JavaScript library helps you store and replicate JSON documents (like AJAX responses) across devices, while also supporting offline-first access?","Answer":"PouchDB"}
+{"Question":"In many Svelte projects, which JavaScript library is often chosen to manage optimized AJAX requests along with client-side caching?","Answer":"svelte-query"}
+{"Question":"In JavaScript, which library is widely recognized for providing easy-to-use, cross-browser animation effects and utilities?","Answer":"jQuery"}
+{"Question":"Using jQuery, what popular plugin lets you easily add highly customizable tooltips to your HTML elements?","Answer":"tooltipster"}
+{"Question":"What jQuery-compatible library can you use to highlight and mark searched keywords within sections of text on a webpage?","Answer":"mark.js"}
+{"Question":"When using jQuery, which widely used plugin enables AJAX-driven file uploads and can display upload progress?","Answer":"blueimp file upload"}
+{"Question":"What is a popular jQuery plugin often used to add lightweight parallax scrolling effects to a webpage?","Answer":"parallax.js"}
+{"Question":"Which popular jQuery plugin is commonly used to create responsive sliders and carousel galleries for websites?","Answer":"Owl Carousel"}
+{"Question":"Which jQuery plugin can you use to make table header rows stay fixed (sticky) at the top while you scroll through a long table?","Answer":"stickyTableHeaders"}
+{"Question":"What popular jQuery-compatible plugin is often used to create a drag-and-drop file upload area within a web form?","Answer":"dropzone.js"}
+{"Question":"When using jQuery, what popular plugin helps embedded videos automatically scale responsively to fit fluid-width layouts?","Answer":"fitvids.js"}
+{"Question":"Which JavaScript styling library allows you to write dynamic CSS with template literals directly inside your components?","Answer":"emotion"}
+{"Question":"Which JavaScript UI component library is known for its sleek, polished components and easy integration with CSS Modules for styling?","Answer":"Ant Design"}
+{"Question":"Which JavaScript library lets you create BEM-style class names for modular CSS using JavaScript object helpers?","Answer":"bem-cn"}
+{"Question":"What lightweight, performance-oriented CSS-in-JS library is often paired with Vue.js to style components using a styled-components approach?","Answer":"vue-styled-components"}
+{"Question":"When using Next.js, which CSS-in-JS tool is included by default to enable component-scoped styling with server-side rendering support?","Answer":"styled-jsx"}
+{"Question":"Which CSS-in-JS library compiles TypeScript/JavaScript style definitions into plain CSS files at build time?","Answer":"vanilla-extract"}
+{"Question":"When working with React, which library offers a Tailwind-inspired, utility-first CSS-in-JS workflow to help you style components faster?","Answer":"twin.macro"}
+{"Question":"In JavaScript React Native projects, which library is known for caching styles and generating atomic CSS selectors?","Answer":"styled-components/native"}
+{"Question":"Which CSS-in-JS approach is often cited for supporting runtime theming when styling Lit-based web components?","Answer":"lit-css"}
+{"Question":"Which JavaScript styling framework emphasizes atomic CSS generation and utility-first composition to style UI components?","Answer":"fela"}
+{"Question":"Which JavaScript library helps extract and optimize CSS written inside React components at build time?","Answer":"astroturf"}
+{"Question":"When working on a Svelte app, what JavaScript tool is commonly used to preprocess styles like SCSS/PostCSS (and other languages) so they can be used directly inside Svelte components?","Answer":"svelte-preprocess"}
+{"Question":"Which lightweight, high-performance CSS-in-JS library integrates smoothly with React, Preact, and Solid.js?","Answer":"goober"}
+{"Question":"Which CSS-in-JS library is designed for near-zero runtime overhead and is a strong fit for serverless deployments?","Answer":"vanilla-extract"}
+{"Question":"Which CSS-in-JS tool is commonly used to create type-safe design tokens and generate CSS variables (custom properties) from them?","Answer":"vanilla-extract"}
+{"Question":"What JavaScript library helps you quickly serialize an HTML form’s fields into a convenient data structure for submission?","Answer":"form-serialize"}
+{"Question":"When working in Node.js, which library is commonly used to parse and traverse HTML with a jQuery-style API?","Answer":"cheerio"}
+{"Question":"Which lightweight JavaScript library is often used to build declarative animations directly on HTML elements?","Answer":"Popmotion"}
+{"Question":"Which JavaScript library is often used to easily create tooltips and popovers on websites?","Answer":"Tippy.js"}
+{"Question":"Which JavaScript library is commonly used to apply syntax highlighting to code blocks within HTML documents?","Answer":"Prism.js"}
+{"Question":"What popular CSS-in-JS library lets JavaScript developers create component-scoped styled HTML elements using tagged template literals?","Answer":"styled-components"}
+{"Question":"Which JavaScript library lets you animate HTML/CSS elements as they scroll into view (i.e., when they enter the viewport)?","Answer":"AOS"}
+{"Question":"Which JavaScript library is commonly used to build responsive, highly customizable sliders and carousels for websites?","Answer":"Slick Carousel"}
+{"Question":"Which JavaScript library is commonly used to create lightweight, accessible modal dialogs and popups for web apps?","Answer":"Micromodal"}
+{"Question":"Which JavaScript library is often used to allow users to crop and adjust images on the client side before uploading via an HTML form?","Answer":"Cropper.js"}
+{"Question":"Which JavaScript library lets you convert an HTML5 canvas rendering into a Blob so it can be downloaded or saved as an image?","Answer":"canvas-to-blob"}
+{"Question":"Which JavaScript library is commonly used to add lazy loading functionality for images on a website?","Answer":"lazysizes"}
+{"Question":"Which JavaScript library can be used to easily implement drag-and-drop file uploads on a website?","Answer":"FilePond"}
+{"Question":"Which JavaScript library provides a ready-to-use emoji picker web component that you can hook up to an HTML text input?","Answer":"emoji-picker-element"}
+{"Question":"Which JavaScript library can you use to attach a lightweight, responsive, and customizable date picker to an HTML input element?","Answer":"flatpickr"}
+{"Question":"Which JavaScript library can help generate and render dynamic breadcrumb navigation components on web pages?","Answer":"react-breadcrumbs"}
+{"Question":"Which JavaScript library is commonly used to listen for and manage mouse wheel scrolling events on specific HTML elements?","Answer":"jquery-mousewheel"}
+{"Question":"Which JavaScript library is often used to display customizable notification and alert popups on web pages?","Answer":"Noty"}
+{"Question":"Which JavaScript library is often suggested for adding client-side syntax highlighting to code snippets on HTML docs or blog pages?","Answer":"highlight.js"}
+{"Question":"Which JavaScript library is commonly used to create smooth number-counting animations for HTML counter elements?","Answer":"CountUp.js"}
+{"Question":"Which JavaScript library can be used to create drag-and-drop sortable HTML lists, including support for nested list items?","Answer":"Nestable"}
+{"Question":"What JavaScript library can be used to show toast-style popup notifications or alert banners on a web page?","Answer":"iziToast"}
+{"Question":"Which JavaScript library lets you run GPU-accelerated deep learning models directly in the browser?","Answer":"deeplearn.js"}
+{"Question":"Which JavaScript library allows you to perform MobileNet-powered image classification right in the browser without server-side code?","Answer":"ml5.js"}
+{"Question":"Which JavaScript (Node.js) library is widely used for NLP features such as tokenization, stemming, and classification?","Answer":"natural"}
+{"Question":"In JavaScript, which library can you use to perform principal component analysis (PCA) on a dataset?","Answer":"ml-pca"}
+{"Question":"Which JavaScript library provides built-in implementations of K-Means clustering as well as Gaussian Mixture Models (GMM) for machine learning tasks?","Answer":"ml.js"}
+{"Question":"What JavaScript library would you use to implement ensemble machine learning models such as decision trees and random forests in the browser or Node.js?","Answer":"random-forest-classifier"}
+{"Question":"What JavaScript library would you use to perform t-SNE dimensionality reduction and plot high-dimensional datasets in 2D or 3D?","Answer":"tsne-js"}
+{"Question":"What JavaScript library can you use to run machine-learning-based handwriting recognition directly in the browser?","Answer":"Handtrack.js"}
+{"Question":"What JavaScript package can generate a confusion matrix and assist with plotting ROC curves to evaluate classification model performance?","Answer":"ml-confusion-matrix"}
+{"Question":"Which JavaScript library would you use to run mean shift clustering algorithms?","Answer":"ml-mean-shift"}
+{"Question":"Which JavaScript library can be used to run hierarchical clustering algorithms for machine learning projects?","Answer":"ml-hclust"}
+{"Question":"In JavaScript machine learning workflows, what module is often used to shuffle samples, split datasets, and run cross-validation routines?","Answer":"ml-cross-validation"}
+{"Question":"Which JavaScript machine learning library can be used in the browser to build collaborative-filtering recommendation engines?","Answer":"collaborative-filter"}
+{"Question":"In JavaScript, which library is commonly used for matrix operations and linear algebra tasks frequently required in machine learning projects?","Answer":"ml-matrix"}
+{"Question":"Which JavaScript library provides helper utilities for bootstrapping (resampling) datasets in machine learning pipelines?","Answer":"ml-bootstrapping"}
+{"Question":"In a JavaScript-based machine learning pipeline, which library can you use to perform feature extraction on time-series data?","Answer":"ml-features"}
+{"Question":"In JavaScript, which package offers an Evolutionary Strategies implementation for optimizing machine learning models?","Answer":"evol-js"}
+{"Question":"Which JavaScript library is widely used for parsing CSV files and handling tabular datasets in data analysis or machine learning pipelines?","Answer":"papaparse"}
+{"Question":"Which JavaScript library can you run directly in the browser to perform machine learning on multivariate time-series datasets?","Answer":"timesheet.js"}
+{"Question":"In JavaScript, what npm package can you use to calculate correlation coefficients for ML feature selection tasks?","Answer":"ml-correlation"}
+{"Question":"Which JavaScript library could you use to perform vector quantization using competitive learning techniques?","Answer":"ml-vq"}
+{"Question":"In JavaScript, which library could you use to transform a large collection of text into word-vector embeddings for NLP tasks?","Answer":"word2vec"}
+{"Question":"In JavaScript, which library can you use to run k-fold cross-validation utilities for assessing machine learning model performance?","Answer":"ml-cross-validation"}
+{"Question":"Which JavaScript library can compute Singular Value Decomposition (SVD) for tasks like dimensionality reduction in machine learning?","Answer":"ml-matrix"}
+{"Question":"Which JavaScript library provides a browser-friendly SQLite implementation using WebAssembly (or pure JavaScript) so you can run SQLite entirely client-side?","Answer":"sql.js"}
+{"Question":"In a Node.js backend, which library can you use to execute raw SQL statements directly against a PostgreSQL database without using an ORM?","Answer":"node-postgres"}
+{"Question":"Which JavaScript library allows you to execute SQL-like queries directly on the browser’s IndexedDB storage?","Answer":"alasql"}
+{"Question":"What JavaScript library offers a straightforward API for running relational-like queries on IndexedDB databases?","Answer":"Dexie.js"}
+{"Question":"In JavaScript testing, which library provides an in-memory SQLite engine so you can create and drop tables dynamically at runtime?","Answer":"sql.js"}
+{"Question":"When writing SQL-backed integration tests in a Node.js application, which library is commonly used to manage database initialization and seeding test fixtures?","Answer":"sequelize"}
+{"Question":"Which JavaScript library allows you to run a full PostgreSQL server entirely inside the browser via WebAssembly (Wasm)?","Answer":"Postgres.js"}
+{"Question":"Which JavaScript library is often used to manage SQL migrations and define database schema changes through code?","Answer":"knex"}
+{"Question":"For an Electron desktop app that requires simple SQLite3 database connectivity with native bindings, which JavaScript library is commonly used?","Answer":"sqlite3"}
+{"Question":"When building a Node.js service backed by PostgreSQL, which SQL library is recognized for high performance, including rapid batch inserts and efficient query reads?","Answer":"pg-promise"}
+{"Question":"Which JavaScript library allows Node.js apps to connect to SQL databases using JDBC and DSN-style connection strings?","Answer":"node-jdbc"}
+{"Question":"Which Node.js library lets you construct SQL queries in JavaScript and handle database migrations/transactions in a programmatic way?","Answer":"knex"}
+{"Question":"Which JavaScript library lets you execute an SQLite database fully in-memory (compiled to WebAssembly) for fast unit testing?","Answer":"sql.js"}
+{"Question":"In a Node.js application, which library can you use to efficiently handle bulk SQL inserts and updates by batching database operations?","Answer":"pg-batch"}
+{"Question":"Which JavaScript ORM is known for robust SQL query building, plus support for eager loading and database transactions?","Answer":"sequelize"}
+{"Question":"When working with a Node.js app using PostgreSQL, which library can you add to log and debug SQL queries by printing detailed query output to the console?","Answer":"pg-monitor"}
+{"Question":"In a Node.js application, which library helps execute multiple SQL queries in parallel by maintaining a pool of independent PostgreSQL database connections?","Answer":"pg-pool"}
+{"Question":"In a Node.js application that connects to PostgreSQL, which library offers a built-in migration API to handle database schema versioning and changes?","Answer":"node-pg-migrate"}
+{"Question":"In a Node.js application, which library is commonly used to perform fast bulk INSERTs into SQL databases to boost performance?","Answer":"pg-promise"}
+{"Question":"Which JavaScript library lets you create in-memory (virtual) tables and run SQL-style queries directly in the browser?","Answer":"alasql"}
+{"Question":"When building a Node.js backend, which widely used library helps you set up and manage PostgreSQL database connections (typically using environment variables for configuration)?","Answer":"pg"}
+{"Question":"Which JavaScript library is frequently used in Node.js to sign and validate JSON Web Tokens (JWTs) for authentication workflows?","Answer":"jsonwebtoken"}
+{"Question":"In a Node.js Express app, which middleware package is typically added to configure and handle Cross-Origin Resource Sharing (CORS) policies?","Answer":"cors"}
+{"Question":"Which JavaScript library helps simplify setting up and managing WebRTC peer-to-peer connections between browsers?","Answer":"simple-peer"}
+{"Question":"Which JavaScript library is commonly used in a Node.js app to handle OAuth 2.0 flows such as obtaining and refreshing access tokens?","Answer":"simple-oauth2"}
+{"Question":"In a JavaScript application, what cloud-based service is frequently used to upload and manage images/files securely?","Answer":"cloudinary"}
+{"Question":"Which JavaScript tool is often used to create a public URL that tunnels to your local development server so you can test webhook callbacks?","Answer":"localtunnel"}
+{"Question":"Which built-in JavaScript module is typically used in Node.js to enable bidirectional communication over the HTTP/2 protocol?","Answer":"http2"}
+{"Question":"In a Node.js application, which JavaScript library is often used to set up scheduled or recurring jobs (such as periodic API calls) using cron-like timing?","Answer":"node-cron"}
+{"Question":"In JavaScript, which library helps manage and queue HTTP requests with concurrency control and built-in retry support?","Answer":"p-queue"}
+{"Question":"Which JavaScript library is often used in front-end testing to intercept and mock browser network (HTTP) requests via a service worker?","Answer":"msw"}
+{"Question":"What JavaScript library provides an HTTP client that supports HTTP/2 for making network requests?","Answer":"undici"}
+{"Question":"Which JavaScript library can you use in the browser to handle chunked (multipart) streaming uploads for large files?","Answer":"fine-uploader"}
+{"Question":"Which JavaScript library simplifies establishing browser-to-browser peer-to-peer connections using WebRTC?","Answer":"peerjs"}
+{"Question":"What JavaScript library uses a Service Worker in the browser to intercept and mock network/API requests during development and testing?","Answer":"msw"}
+{"Question":"Which JavaScript library can you use in the browser to simplify and efficiently handle Server-Sent Events (SSE) connections?","Answer":"sse.js"}
+{"Question":"In a Node.js project, which library can help you capture, inspect, analyze, and visualize network traffic for debugging purposes?","Answer":"netalyzer"}
+{"Question":"Which JavaScript library is frequently used in Node.js projects to enable WebSocket-driven real-time messaging?","Answer":"ws"}
+{"Question":"In JavaScript, which library can you use to bundle multiple HTTP requests together into one batched call?","Answer":"batch-request"}
+{"Question":"Which JavaScript library offers a fallback network strategy to support offline usage in Progressive Web Apps (PWAs)?","Answer":"workbox"}
+{"Question":"In a Node.js microservices setup, which library is typically used to make it easier to implement gRPC-based communication between services?","Answer":"grpc"}
+{"Question":"In a Node.js service, which JavaScript library helps monitor and manage HTTP(S) keep-alive agent connection pooling and socket reuse?","Answer":"agentkeepalive"}
+{"Question":"Which JavaScript library can you use to continuously measure and track network latency in real time?","Answer":"ping.js"}
+{"Question":"When building a Node.js service, which JavaScript library would you use to add support for the SOCKS4/SOCKS5 proxy protocol?","Answer":"socks"}
+{"Question":"Which JavaScript library is widely used in the browser to render and animate 3D models with skeletal (skinned mesh) rigs?","Answer":"three.js"}
+{"Question":"Which modular JavaScript physics engine is often used for 3D simulations and physics-driven animations directly in the browser?","Answer":"physijs"}
+{"Question":"In JavaScript, what library can you use to run GPU-accelerated computations (e.g., for physics simulations or image processing) directly in the browser?","Answer":"gpu.js"}
+{"Question":"Which JavaScript library is frequently used to provide real-time 3D medical imaging visualization in browser-based applications?","Answer":"cornerstone.js"}
+{"Question":"Which open-source JavaScript library is widely used for scientific visualization to render and interactively explore 3D seismic volume data in the browser?","Answer":"VolumeJS"}
+{"Question":"Which JavaScript library is commonly used to display, render, and annotate 3D medical imaging data such as CT and MRI scans in the browser?","Answer":"cornerstone.js"}
+{"Question":"Which JavaScript library is widely used in web apps to render and interact with volumetric medical imaging studies (e.g., CT/MRI) in both 2D slice views and 3D for clinical viewing?","Answer":"cornerstone.js"}
+{"Question":"Which JavaScript library is widely used for building interactive WebGL-powered 3D data visualizations in dashboard apps, such as layered charts and map overlays?","Answer":"deck.gl"}
+{"Question":"Which JavaScript library provides a simple, browser-based API for building virtual reality (VR) scenes on the web?","Answer":"A-Frame"}
+{"Question":"Which JavaScript library is commonly used for GPU-accelerated WebGL 3D rendering in the browser, particularly for interactive data visualizations and geospatial map overlays?","Answer":"deck.gl"}
+{"Question":"In a Node.js application, which npm package can you install to capture V8 heap snapshots for memory leak analysis?","Answer":"heapdump"}
+{"Question":"Which lightweight JavaScript library can be embedded in a webpage to show a real-time performance panel (including CPU and memory usage) while your scripts run?","Answer":"stats.js"}
+{"Question":"Which npm package lets you programmatically check a running Node.js process’s resource usage (like memory and CPU) from within your code?","Answer":"usage"}
+{"Question":"In a Node.js service, which Datadog APM tracing library can you use to collect and report runtime metrics like memory usage to Datadog dashboards?","Answer":"dd-trace"}
+{"Question":"Which Node.js process manager includes a web-based dashboard for monitoring memory consumption and other runtime statistics?","Answer":"pm2"}
+{"Question":"What JavaScript package offers an event-driven interface for monitoring garbage collection (GC) events and analyzing memory usage patterns over time?","Answer":"gc-stats"}
+{"Question":"Which npm package can you install in an Express.js application to add a live dashboard showing memory usage and other performance statistics?","Answer":"express-status-monitor"}
+{"Question":"What npm module can you add to a Node.js app to track a running process’s CPU/memory consumption and print the stats in a console-friendly way?","Answer":"usage"}
+{"Question":"What npm package can you install to take and analyze V8 heap snapshots for profiling memory allocations in a Node.js app?","Answer":"v8-profiler-next"}
+{"Question":"When managing Node.js processes, which library includes an integrated dashboard for tracking your apps’ CPU and memory usage in real time?","Answer":"pm2"}
+{"Question":"When profiling a React app, which tool can you use to inspect memory allocation behavior and pinpoint performance bottlenecks?","Answer":"react-perf-devtool"}
+{"Question":"When building Node.js command-line tools, which npm package is commonly used to log and display process memory usage statistics in an easy-to-read way?","Answer":"usage"}
+{"Question":"Which JavaScript library provides a comprehensive mathematics toolkit, including features for algebraic operations, matrix computations, and complex number calculations?","Answer":"mathjs"}
+{"Question":"When using Markdown-it, which JavaScript plugin is commonly added to support rendering LaTeX-style math formulas directly in Markdown content?","Answer":"markdown-it-katex"}
+{"Question":"Which JavaScript library focuses on prime number operations, offering features like generating primes and implementing sieve-based algorithms?","Answer":"prime-lib"}
+{"Question":"What JavaScript library provides built-in utilities for performing a Fast Fourier Transform (FFT) on data?","Answer":"fft.js"}
+{"Question":"In JavaScript, what library would you use to perform symbolic math operations like differentiation and integration?","Answer":"algebrite"}
+{"Question":"Which JavaScript library is widely used for numerical linear algebra computations on multidimensional arrays?","Answer":"ndarray"}
+{"Question":"What JavaScript library provides geometric algorithms and helpers like line intersections, convex hull computation, and generating Voronoi diagrams?","Answer":"d3-geometry"}
+{"Question":"In JavaScript, which library would you choose for performing quaternion math and handling 3D rotation quaternion operations?","Answer":"quaternion"}
+{"Question":"Which JavaScript library would you choose to run regression algorithms for predictive analysis and simple statistical modeling tasks?","Answer":"ml-regression"}
+{"Question":"Which JavaScript library can parse a mathematical expression provided as a string and evaluate its result?","Answer":"math-expression-evaluator"}
+{"Question":"Which JavaScript library is often chosen for scientific computing tasks such as working with n-dimensional arrays and performing matrix operations?","Answer":"numjs"}
+{"Question":"When working in Node.js or a modern web browser, which JavaScript library lets you perform NumPy-style numerical computations on arrays?","Answer":"numjs"}
+{"Question":"Which JavaScript library provides statistical utilities suitable for running Monte Carlo simulations and similar analyses?","Answer":"simple-statistics"}
+{"Question":"Which JavaScript library is commonly used for Monte Carlo integration and various statistical calculations?","Answer":"simple-statistics"}
+{"Question":"Which JavaScript library can be used to perform matrix operations such as calculating eigenvalues and eigenvectors?","Answer":"ml-matrix"}
+{"Question":"Which JavaScript library is commonly used to design and generate math-driven puzzles and game-style challenges?","Answer":"puzzle.js"}
+{"Question":"Which JavaScript library provides an extensive set of advanced mathematical operations, including special functions such as Bessel and Legendre?","Answer":"mathjs"}
+{"Question":"In JavaScript, what library can you use to calculate a matrix determinant and compute a matrix inverse?","Answer":"mathjs"}
+{"Question":"Which JavaScript library provides utility functions for efficiently creating permutations and combinations of arrays or sets?","Answer":"js-combinatorics"}
+{"Question":"Which JavaScript library can be used to numerically solve nonlinear equations using root-finding methods (like Newton–Raphson or bisection)?","Answer":"numeric"}
+{"Question":"What JavaScript library can be used to easily calculate statistical measures like variance and standard deviation on a dataset?","Answer":"simple-statistics"}
+{"Question":"Which JavaScript library can be used to create and solve Sudoku grids for a number-based logic puzzle game?","Answer":"puzzle.js"}
+{"Question":"Which JavaScript library is commonly used to perform fast, NumPy-style numerical computations and array operations?","Answer":"numjs"}
+{"Question":"Which JavaScript library is commonly used to perform matrix algebra tasks such as multiplication, inversion, and various matrix decompositions?","Answer":"ml-matrix"}
+{"Question":"In JavaScript, what library offers a wide range of statistical functions and includes support for common probability distributions?","Answer":"jstat"}
+{"Question":"Which JavaScript tool is widely used to build, document, and present UI components for design systems and reusable component libraries in isolation?","Answer":"Storybook"}
+{"Question":"Which JavaScript library offers a collection of Material Design-based UI components designed for use in React projects?","Answer":"Material-UI"}
+{"Question":"Which JavaScript library is widely used to add smooth, accessible drag-and-drop functionality to modern web applications?","Answer":"react-beautiful-dnd"}
+{"Question":"Which JavaScript library would you use to build an auto-complete (typeahead) input field that shows suggestion options as a user types in a responsive way?","Answer":"react-autosuggest"}
+{"Question":"Which JavaScript library is frequently used to integrate customizable color picker components into web applications?","Answer":"react-color"}
+{"Question":"Which JavaScript library is frequently used to display sleek skeleton loading placeholders while data or UI content is still being fetched?","Answer":"react-loading-skeleton"}
+{"Question":"When building a React app, what JavaScript library can you use to create and control dynamic breadcrumb navigation links?","Answer":"react-breadcrumbs-dynamic"}
+{"Question":"What JavaScript library helps you create accessible data tables with capabilities such as sorting, pagination, and flexible column definitions?","Answer":"react-table"}
+{"Question":"Which JavaScript library lets you quickly create customizable right-click (context) menus in a web app?","Answer":"react-contexify"}
+{"Question":"Which JavaScript library can you use to quickly add customizable popups, tooltips, and dropdown-like menus to a web page?","Answer":"reactjs-popup"}
+{"Question":"What JavaScript library can you use to implement a swipeable navigation drawer component in a web application?","Answer":"react-swipeable-drawer"}
+{"Question":"When building a React app, what JavaScript library can you use to display skeleton loading placeholders (SVG-based) while data is still loading?","Answer":"react-content-loader"}
+{"Question":"Which JavaScript library helps you create step-by-step multi-step wizard forms with navigation between steps?","Answer":"react-stepzilla"}
+{"Question":"When building a React application, which library can you use to implement Tinder-like swipeable card components?","Answer":"react-tinder-card"}
+{"Question":"What JavaScript library would you use to rapidly add a star-rating widget to your web app’s UI?","Answer":"react-rating-stars-component"}
+{"Question":"Which JavaScript library can be used to quickly implement breadcrumb navigation in a React-based user interface?","Answer":"react-breadcrumbs"}
+{"Question":"Which JavaScript library can be used to build accessible multi-step (wizard-style) forms featuring a horizontal stepper interface?","Answer":"react-stepper-horizontal"}
+{"Question":"Which JavaScript library would you use to implement and control sticky tooltips within a web user interface?","Answer":"react-tooltip"}
+{"Question":"When creating Stripe Elements-based payment forms inside a React application, which JavaScript library is typically used to integrate Stripe into React components?","Answer":"react-stripe-js"}
+{"Question":"What JavaScript library can you use to quickly implement a basic horizontal scrolling component in a UI?","Answer":"react-scroll-horizontal"}
+{"Question":"Which JavaScript library can help you implement a user-friendly autocomplete text input component?","Answer":"react-autocomplete"}
+{"Question":"In a React application that uses React Router, which JavaScript library can help automatically create breadcrumb navigation components from your routes?","Answer":"react-router-breadcrumbs-hoc"}
+{"Question":"When building a React app, what JavaScript library can you use to implement an accessible radio group component?","Answer":"@reach/radio"}
+{"Question":"Which JavaScript library is often chosen to add smooth parallax scrolling effects to modern, creative web interfaces?","Answer":"react-parallax"}
+{"Question":"Which JavaScript library would you choose to add neat, circular (radial) progress bars to a web application?","Answer":"react-circular-progressbar"}
+{"Question":"In a React project, what library can you use to fire CSS-driven animations when components scroll into view within the viewport?","Answer":"react-animate-on-scroll"}
+{"Question":"In a React Native project, which JavaScript library would you use to add a responsive side navigation drawer component for app navigation?","Answer":"react-navigation-drawer"}
+{"Question":"In a React application, which JavaScript library can help you quickly add ready-made pagination controls for navigating between pages of content?","Answer":"react-paginate"}
+{"Question":"What JavaScript library can you use to quickly add a star rating widget for things like products or movie reviews?","Answer":"react-star-ratings"}
+{"Question":"Which JavaScript library would you use to quickly enable drag-and-drop functionality for modal or dialog components?","Answer":"react-draggable"}
+{"Question":"Which JavaScript library can be used to add swipe, drag, and other gesture controls to React components?","Answer":"react-use-gesture"}
+{"Question":"Which JavaScript library allows you to build a draggable, resizable split-pane interface with adjustable panels?","Answer":"react-splitter-layout"}
+{"Question":"Which JavaScript library helps you build responsive tabbed navigation interfaces that automatically adjust for different screen sizes?","Answer":"react-responsive-tabs"}
+{"Question":"When building a React app, which library could you choose to add a sleek, customizable search bar component with minimal setup?","Answer":"react-search-bar"}
+{"Question":"Which JavaScript library would you use to build modern, accessible breadcrumb navigation components for a web UI?","Answer":"react-accessible-breadcrumbs"}
+{"Question":"What React-oriented JavaScript library can you use to display a basic step-based progress bar component in a user interface?","Answer":"react-step-progress-bar"}
+{"Question":"What JavaScript UI library can help you add stylish, interactive chip/tag input fields to a React application?","Answer":"react-chips"}
+{"Question":"Which JavaScript library is well-suited for building touch-friendly image carousel sliders optimized for mobile devices?","Answer":"react-touch-carousel"}
+{"Question":"Which JavaScript library can be used to build customizable, responsive breadcrumb navigation components for a web app?","Answer":"react-flex-breadcrumbs"}
+{"Question":"Which JavaScript library could you use to render UI status indicators and badge-style components in your interface?","Answer":"react-badge"}
+{"Question":"Which JavaScript library can be used to build a responsive horizontal scrolling menu or list component with easy navigation controls?","Answer":"react-horizontal-scrolling-menu"}
+{"Question":"Which JavaScript library can you use to apply input masking and formatting to form fields in a web interface?","Answer":"react-input-mask"}
+{"Question":"Which JavaScript library lets you build a sticky, scroll-reactive header that automatically hides and reveals itself as the user scrolls?","Answer":"react-headroom"}
+{"Question":"Which JavaScript library is commonly used to build dropdown/select components with list virtualization to efficiently handle very large sets of options?","Answer":"react-select-virtualized"}
+{"Question":"Which JavaScript library can be used to create dismissible (closable) announcement banners on a website?","Answer":"react-announcement-banner"}
+{"Question":"Which JavaScript library can be used to create and render customizable, interactive avatar illustrations on the web?","Answer":"avataaars"}
+{"Question":"Which JavaScript library would you choose to add a mobile-like bottom sheet component with smooth interactions to a web UI?","Answer":"react-spring-bottom-sheet"}
+{"Question":"Which JavaScript library lets you build swipeable, animated tab view panels (commonly used with React)?","Answer":"react-swipeable-views"}
+{"Question":"Which JavaScript library can you use to build a scrollable tab navigation UI with customizable layouts and swipe/gesture support?","Answer":"react-tabs-scrollable"}
+{"Question":"Which JavaScript library is often used to easily add responsive, customizable tooltips to buttons and other interface elements?","Answer":"react-tooltip"}
+{"Question":"Which JavaScript library could you use to quickly display and update small notification badge counters on icons in a web application?","Answer":"react-notification-badge"}
+{"Question":"When building a React Native app, which library is most often used to manage in-app navigation between screens and handle routing?","Answer":"react-navigation"}
+{"Question":"Which React Native library provides a collection of customizable UI components based on Material Design guidelines?","Answer":"react-native-paper"}
+{"Question":"In React Native, which popular library lets developers easily include scalable vector icons throughout an app’s user interface?","Answer":"react-native-vector-icons"}
+{"Question":"When building a React Native list, what library can you use to add swipeable list items that reveal hidden buttons or actions?","Answer":"react-native-swipe-list-view"}
+{"Question":"In React Native apps, which JavaScript library is often used to implement swipeable carousel sliders with snapping behavior?","Answer":"react-native-snap-carousel"}
+{"Question":"When building a React Native app, what library is often used to show skeleton-style placeholder loaders while content is fetching?","Answer":"react-native-skeleton-placeholder"}
+{"Question":"In a React Native app, which library is typically used to display and control Lottie JSON animations with smooth rendering?","Answer":"lottie-react-native"}
+{"Question":"When building a React Native application, what JavaScript library is frequently used to handle form state management and validation?","Answer":"formik"}
+{"Question":"When building a React Native application, what library lets you detect and follow the device’s system-wide light or dark appearance setting automatically?","Answer":"react-native-appearance"}
+{"Question":"When building a React Native app, which library can be used to add pinch-to-zoom and pan gestures for viewing images?","Answer":"react-native-image-zoom-viewer"}
+{"Question":"When building a carousel in React Native, what library can be used to display pagination indicators (dots) beneath the slides?","Answer":"react-native-pagination"}
+{"Question":"In a React Native app, what library would you use to build a highly customizable modal bottom sheet (with your own custom content and interactions)?","Answer":"react-native-modalize"}
+{"Question":"When building a React Native app, what library would you use to implement smooth animated number changes, like counters ticking up or down?","Answer":"react-native-animated-numbers"}
+{"Question":"When building a React Native application, what library can you use to show a contextual popover menu that appears anchored to a specific button or UI component?","Answer":"react-native-popover"}
+{"Question":"When building a React Native app, what JavaScript library can be used to show in-app notification banners or alerts within the app?","Answer":"react-native-notifications"}
+{"Question":"When building a React Native list, which library can you use to implement swipe gestures for actions such as swipe-to-delete on each row?","Answer":"react-native-swipeout"}
+{"Question":"When building a React Native app, what library can you use to implement an iOS-style wheel picker for selecting values?","Answer":"react-native-picker-select"}
+{"Question":"In a React Native project, what library can you use to implement an onboarding intro slider and persist that the user has already seen it so it won’t appear again on subsequent app launches?","Answer":"react-native-app-intro-slider"}
+{"Question":"While building a React Native application, what library can you use to implement an animated circular progress ring indicator?","Answer":"react-native-circular-progress"}
+{"Question":"When building a React Native app, which library would you choose to add a customizable Bottom App Bar using prebuilt Material Design components?","Answer":"react-native-paper"}
+{"Question":"In a React Native project, what library helps a ScrollView automatically shift when the keyboard opens so text inputs stay visible?","Answer":"react-native-keyboard-aware-scroll-view"}
+{"Question":"When building a React Native app, what library is often used to implement responsive grid-based layouts with rows and columns?","Answer":"react-native-easy-grid"}
+{"Question":"When using React Native with FlatList-style components, which library helps you implement sticky section headers (and can also handle sticky footers)?","Answer":"react-native-sticky-list-headers"}
+{"Question":"When building a React Native app, which library can be used to generate customizable avatar components with animation support?","Answer":"react-native-avatar"}
+{"Question":"When creating a React Native form, which library can be used to implement floating label behavior for TextInput components?","Answer":"react-native-floating-labels"}
+{"Question":"When building a React Native app, what library could you use to present images in a polished modal lightbox with pinch-to-zoom and swipe navigation?","Answer":"react-native-modal-image"}
+{"Question":"In React Native, what library is commonly recognized for offering experimental gesture handling along with animation-related APIs?","Answer":"react-native-gesture-handler"}
+{"Question":"When building a React Native login screen, which library lets you add a password TextInput that includes a built-in eye icon to toggle visibility?","Answer":"react-native-password-input"}
+{"Question":"When building a React Native form, what library can you add to quickly include a simple numeric stepper input component?","Answer":"react-native-numeric-input"}
+{"Question":"When building a React Native application, what library can you use to implement fully animated color picker wheels?","Answer":"react-native-color-picker-wheel"}
+{"Question":"Which React Native library helps you quickly create a chat UI by providing ready-made messaging components like message bubbles, avatars, and input toolbar?","Answer":"react-native-gifted-chat"}
+{"Question":"For a React Native project, which library offers an out-of-the-box UI for scanning barcodes and QR codes?","Answer":"react-native-camera"}
+{"Question":"When building a React Native application, what library can you use to implement an animated, interactive credit card input form for collecting payment card details?","Answer":"react-native-credit-card"}
+{"Question":"In a React Native app, which library is frequently chosen to implement a tabbed interface with smooth animated transitions when switching between different scenes?","Answer":"react-native-tab-view"}
+{"Question":"In a React Native app, which library would you use to implement animated sticky headers for a scrollable list or sectioned list?","Answer":"react-native-sticky-header"}
+{"Question":"When building a React Native application, which library can you use to create an infinite scrolling list that shows a spinner or loading indicator as more items are loaded from an API?","Answer":"react-native-infinite-scroll-view"}
+{"Question":"When building a React Native application, what library is commonly used to display and play Lottie JSON-based animations?","Answer":"lottie-react-native"}
+{"Question":"What React Native library would you choose to display a timeline-based journey or event list visualization in your app’s interface?","Answer":"react-native-timeline-flatlist"}
+{"Question":"Which React Native library offers pre-built, styled avatar (profile picture) components you can drop into your UI?","Answer":"react-native-avatar"}
+{"Question":"When building a React Native application, what library can be used to enable pinch-to-zoom and double-tap zoom interactions on an image component?","Answer":"react-native-image-pan-zoom"}
+{"Question":"When using a React Native FlatList, what library can you integrate to enable swipe gestures that reveal row action buttons like delete or archive?","Answer":"react-native-swipeable"}
+{"Question":"When building a React Native screen, which library can you use to display an animated circular progress indicator (ring) using SVG graphics?","Answer":"react-native-svg-circular-progress"}
+{"Question":"When building a React Native interface, which library would you choose to create swipeable parallax card-style UI components?","Answer":"react-native-parallax-card"}
+{"Question":"In a React Native app, what library could you use to create a scrollable screen that supports a sticky (fixed) header effect?","Answer":"react-native-scrollable-header"}
+{"Question":"When building a React Native app, which library can be used to display animated pie charts as well as circular progress rings?","Answer":"react-native-pie-chart"}
+{"Question":"In a React Native app, which library lets you create swipeable, pager-style tab navigation without using a FlatList-based implementation?","Answer":"react-native-viewpager"}
+{"Question":"When developing a React Native application, what library can you use to show stackable toast messages and alert-like overlay notifications?","Answer":"react-native-root-toast"}
+{"Question":"In a React Native app, what library would you use to create a table/list view where each row supports swipe actions like delete or edit?","Answer":"react-native-tableview-simple"}
+{"Question":"When building a React Native application, what library can you use to render a smiley-face based user rating widget?","Answer":"react-native-smiley-rating"}
+{"Question":"Which React Native UI library offers flexbox-based grid components for creating responsive, auto-layout designs?","Answer":"react-native-flexbox-grid"}
+{"Question":"When building a React Native app, what library could you use to implement a vertical timeline or step-by-step journey/progress indicator UI?","Answer":"react-native-timeline-flatlist"}
+{"Question":"When building a React Native application, which library can you use to show an animated circular progress ring/loader component?","Answer":"react-native-circular-progress-indicator"}
+{"Question":"In a React Native app, which library can you use to implement animated Chip components for a filter list interface?","Answer":"react-native-paper"}
+{"Question":"When building a React Native application, what library can you use to render animated pie, line, and bar charts using SVG-based chart components?","Answer":"react-native-svg-charts"}
+{"Question":"When building a React Native application, what library would you choose to implement a sleek stepper/progress indicator that allows an icon to be displayed for each step?","Answer":"react-native-steps"}
+{"Question":"When building a React Native application, what library can you use to add iOS Cupertino-style UI elements such as alerts, dialogs, and pickers?","Answer":"react-native-cupertino"}
+{"Question":"Please provide a JavaScript question *and* its answer (the library name). For example: \"Which JS library is used for DOM manipulation?\" Answer: \"jQuery\". Then I can rewrite a very similar question whose answer is the same library.","Answer":""}
+{"Question":"What is an object in JavaScript and how is it typically used?","Answer":"I am sorry, I do not have an answer for your question"}
+{"Question":"Please provide the JavaScript library name you want the new question to target (e.g., React, Lodash, D3). What is the intended answer/library?","Answer":""}
+{"Question":"Please provide a JavaScript question and its library answer (e.g., Answer: \"React\") so I can rewrite a very similar new question with the same library as the answer.","Answer":"N/A"}
+{"Question":"Please provide a JavaScript question and its answer (specifically a JavaScript library name) so I can create a very similar new question with the same library as the answer. What library should the answer be?","Answer":null}
+{"Question":"Please provide a JavaScript-related question and the library name that is the answer (e.g., Question: 'Which JS library is used for building UIs?' Answer: 'React').","Answer":"(library name you provide)"}
+{"Question":"Which JavaScript library provides functional utilities for working with lists (arrays), offering operations like map/filter/reduce in a style similar to R’s list manipulation?","Answer":"Ramda"}
+{"Question":"Please provide a JavaScript-related question and its answer (the answer should be a JavaScript library name), so I can rewrite the question into a very similar one while keeping the same library as the answer.","Answer":""}
+{"Question":"In the JavaScript ecosystem, which language adds support for features like abstract classes similar to C#?","Answer":"TypeScript"}
+{"Question":"In JavaScript, what is the purpose of the `with` statement, and why is it generally discouraged?","Answer":"I am sorry, I do not have an answer for your question"}
+{"Question":"In JavaScript, what pattern is used to write asynchronous code in a way that reads like synchronous code and helps avoid deeply nested callbacks?","Answer":"async/await"}
+{"Error":"I can’t generate the requested output because you didn’t provide a JavaScript Q&A with a library as the answer. Please send a JavaScript question and its answer (the answer should be a library name, e.g., React/jQuery/Vue), and I’ll return a slightly modified similar question in the same JSON format."}
+{"Question":"In JavaScript, which library name would you look for if you wanted a “standard template library” style set of reusable data structures and algorithms?","Answer":"Standard Template Library (STL)"}
+{"Question":"Please provide a JavaScript question and its library answer (e.g., Answer: \"React\"), so I can create a very similar modified question with the same library as the answer.","Answer":null}
+{"Error":"I can’t create the new JavaScript Q&A yet because you didn’t provide a JavaScript question with its answer (a library name). Please send a JS question and the library answer you want (e.g., Answer: \"React\"), and I’ll generate a very similar new question with the same library as the answer."}
+{"Question":"In JavaScript, what is the purpose of the globalThis object (the global scope reference)?","Answer":"I am sorry, I do not have an answer for your question"}
+{"Question":"Please provide a JavaScript-related question and the library name that is its answer (e.g., Answer: \"React\"), so I can rewrite the question into a very similar new one with the same library as the answer.","Answer":"Missing library answer from user"}
+{"Question":"How can you import modules in JavaScript (using ES6 syntax)?","Answer":"I am sorry, I do not have an answer for your question"}
