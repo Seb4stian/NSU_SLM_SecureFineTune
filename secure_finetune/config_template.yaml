@@ -1,0 +1,83 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Secure Fine-Tune Framework — Configuration File
+# ─────────────────────────────────────────────────────────────────────────────
+# Usage:  python -m secure_finetune secure_finetune/config_template.yaml
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Model Selection ─────────────────────────────────────────────────────────
+# Supported models (use key or full HuggingFace repo ID):
+#   tinyllama, gemma-2b-it, deepseek-r1-distill-qwen-1.5b,
+#   phi-3-mini-4k-instruct, qwen1.5-0.5b-chat, minicpm-1b-sft-bf16,
+#   h2o-danube-1.8b-sft, smollm-135m-instruct, stablelm-2-zephyr-1.6b,
+#   mobilellama-1.4b-chat, mobillama-0.5b-chat, fox-1-1.6b-instruct,
+#   dolly-v1-6b, olmo-7b-instruct
+# Run: python -m secure_finetune --list-models  for full list
+model_name: "tinyllama"
+
+# ── Datasets ────────────────────────────────────────────────────────────────
+training_dataset: "C:\\path\\to\\TainingDataset8.jsonl"
+validation_dataset: "C:\\path\\to\\EvaluationDataset9.jsonl"
+
+# ── Output ──────────────────────────────────────────────────────────────────
+output_dir: "./output_finetune"
+
+# ── HuggingFace Hub ─────────────────────────────────────────────────────────
+hf_token: "hf_YOUR_TOKEN_HERE"
+hf_repo_id: "YourUsername/your-model-name"
+
+# ── Iteration Control ──────────────────────────────────────────────────────
+# max_iterations: Maximum number of fine-tune iterations (1-10, hard cap at 10)
+# target_score: Stop early if average judge score reaches this threshold
+max_iterations: 5
+target_score: 0.95
+
+# ── Task Domain ─────────────────────────────────────────────────────────────
+# These describe what the model should answer and refuse
+task_domain: "JavaScript libraries"
+task_description: "Answer questions about JavaScript libraries and frameworks. Refuse all other topics."
+refusal_phrase: "I am sorry, I do not have an answer for your question"
+
+# ── GPT Judge Configuration ────────────────────────────────────────────────
+# provider: openai | anthropic | xai (Grok)
+# model: The specific model to use for judging
+judge:
+  provider: "openai"
+  model: "gpt-4o"
+  api_key: "sk-YOUR_OPENAI_KEY_HERE"
+  temperature: 0.1
+  max_tokens: 2048
+
+# ── Anthropic Example ──────────────────────────────────────────────────────
+# judge:
+#   provider: "anthropic"
+#   model: "claude-sonnet-4-20250514"
+#   api_key: "sk-ant-YOUR_ANTHROPIC_KEY_HERE"
+#   temperature: 0.1
+#   max_tokens: 2048
+
+# ── xAI (Grok) Example ────────────────────────────────────────────────────
+# judge:
+#   provider: "xai"
+#   model: "grok-3"
+#   api_key: "xai-YOUR_GROK_KEY_HERE"
+#   temperature: 0.1
+#   max_tokens: 2048
+
+# ── Training Hyperparameters ───────────────────────────────────────────────
+training:
+  lora_r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0002
+  lr_scheduler_type: "cosine"
+  num_train_epochs: 3
+  max_steps: 250
+  fp16: true
+  bf16: false
+  save_strategy: "epoch"
+  logging_steps: 10
+  optim: "paged_adamw_32bit"
+  max_seq_length: 512
+  warmup_ratio: 0.03
