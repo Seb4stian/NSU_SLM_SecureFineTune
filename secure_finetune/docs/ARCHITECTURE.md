@@ -457,3 +457,222 @@ Training data sample ──────────────┘
 | `run_summary.json` | Overall run summary with all metrics |
 | `iter_{N}/merged_model/` | Merged model files for iteration N |
 | `checkpoints_iter{N}/` | Training checkpoints (LoRA adapters) |
+
+---
+
+## Empirical Evaluation Results
+
+This section presents the empirical evaluation of five SLM model pairs — each consisting of a **Fine-Tuned (FT)** variant trained with the Secure Fine-Tune Framework and its corresponding **Out-of-Box (OOB)** baseline — evaluated on a validation dataset of $M = 499$ records ($427$ real-answer positives, $72$ refusal negatives).
+
+All metrics are computed using the binary classification formulation defined in [Section 8](#8-ml-evaluation-metrics), where:
+
+- **Positive class** ($y = 1$): The model should provide a real answer
+- **Negative class** ($y = 0$): The model should refuse (produce $\phi$)
+
+The improvement delta for each metric is computed as:
+
+$$\Delta_{\text{metric}} = \text{metric}_{\text{FT}} - \text{metric}_{\text{OOB}}$$
+
+A positive $\Delta$ indicates the fine-tuned model outperforms its baseline.
+
+---
+
+### Model Pair 1: Gemma 2B IT
+
+| | **FT:** `gemma-2b-it-edcastr_JavaScript-v10` | **OOB:** `gemma-2b-it` | **$\Delta$ (FT − OOB)** |
+|:---|:---:|:---:|:---:|
+| **Accuracy** | 0.6232 | 0.2485 | **+0.3747** |
+| **Precision** | 0.9838 | 0.6327 | **+0.3511** |
+| **Recall** | 0.5691 | 0.2904 | **+0.2787** |
+| **$F_1$ Score** | 0.7211 | 0.3981 | **+0.3230** |
+| **MCC** | 0.3609 | −0.5106 | **+0.8715** |
+| **ROC-AUC** | 0.7568 | 0.1452 | **+0.6116** |
+
+**Confusion Matrices:**
+
+| | **FT — Gemma 2B** | | | **OOB — Gemma 2B** | |
+|:---|:---:|:---:|:---|:---:|:---:|
+| | Pred Refused (0) | Pred Answer (1) | | Pred Refused (0) | Pred Answer (1) |
+| **Actual Refused (0)** | TN = 68 | FP = 4 | **Actual Refused (0)** | TN = 0 | FP = 72 |
+| **Actual Answer (1)** | FN = 184 | TP = 243 | **Actual Answer (1)** | FN = 303 | TP = 124 |
+
+> **Key Finding:** The OOB Gemma model performs poorly across both classes: it fails to refuse any out-of-scope queries ($\text{TN} = 0$, $\text{FP} = 72$) and answers only 124 of 427 real-answer questions correctly ($\text{MCC} = -0.5106$). After fine-tuning, refusal detection improves substantially ($\text{TN} = 68$, $\text{FP} = 4$, 94.4% refusal accuracy), though the model over-refuses on real-answer queries ($\text{FN} = 184$), resulting in moderate overall performance ($F_1 = 0.7211$, $\text{MCC} = 0.3609$).
+
+---
+
+### Model Pair 2: TinyLlama 1.1B Chat
+
+| | **FT:** `tinyllama-edcastr_JavaScript-v2` | **OOB:** `TinyLlama-1.1B-Chat-v1.0` | **$\Delta$ (FT − OOB)** |
+|:---|:---:|:---:|:---:|
+| **Accuracy** | 0.7034 | 0.2084 | **+0.4950** |
+| **Precision** | 1.0000 | 0.5909 | **+0.4091** |
+| **Recall** | 0.6534 | 0.2436 | **+0.4098** |
+| **$F_1$ Score** | 0.7904 | 0.3449 | **+0.4455** |
+| **MCC** | 0.4624 | −0.5563 | **+1.0187** |
+| **ROC-AUC** | 0.8267 | 0.1218 | **+0.7049** |
+
+**Confusion Matrices:**
+
+| | **FT — TinyLlama** | | | **OOB — TinyLlama** | |
+|:---|:---:|:---:|:---|:---:|:---:|
+| | Pred Refused (0) | Pred Answer (1) | | Pred Refused (0) | Pred Answer (1) |
+| **Actual Refused (0)** | TN = 72 | FP = 0 | **Actual Refused (0)** | TN = 0 | FP = 72 |
+| **Actual Answer (1)** | FN = 148 | TP = 279 | **Actual Answer (1)** | FN = 323 | TP = 104 |
+
+> **Key Finding:** The OOB TinyLlama model performs worse than random ($\text{ROC-AUC} = 0.1218$, $\text{MCC} = -0.5563$), indicating systematic anti-correlation with the correct labels. Fine-tuning achieves perfect refusal detection ($\text{FP} = 0$, $\text{TN} = 72$) and dramatically improves answer quality, producing the largest MCC swing among all models ($\Delta_{\text{MCC}} = +1.0187$).
+
+---
+
+### Model Pair 3: DeepSeek R1 Distill Qwen 1.5B
+
+| | **FT:** `DeepSeek-R1-Distill-Qwen-1.5B-LoRA` | **OOB:** `DeepSeek-R1-Distill-Qwen-1.5B` | **$\Delta$ (FT − OOB)** |
+|:---|:---:|:---:|:---:|
+| **Accuracy** | 0.7515 | 0.0822 | **+0.6693** |
+| **Precision** | 1.0000 | 0.3628 | **+0.6372** |
+| **Recall** | 0.7096 | 0.0960 | **+0.6136** |
+| **$F_1$ Score** | 0.8301 | 0.1519 | **+0.6782** |
+| **MCC** | 0.5106 | −0.7589 | **+1.2695** |
+| **ROC-AUC** | 0.8548 | 0.0480 | **+0.8068** |
+
+**Confusion Matrices:**
+
+| | **FT — DeepSeek** | | | **OOB — DeepSeek** | |
+|:---|:---:|:---:|:---|:---:|:---:|
+| | Pred Refused (0) | Pred Answer (1) | | Pred Refused (0) | Pred Answer (1) |
+| **Actual Refused (0)** | TN = 72 | FP = 0 | **Actual Refused (0)** | TN = 0 | FP = 72 |
+| **Actual Answer (1)** | FN = 124 | TP = 303 | **Actual Answer (1)** | FN = 386 | TP = 41 |
+
+> **Key Finding:** The OOB DeepSeek model exhibits the strongest anti-correlation of all baselines ($\text{MCC} = -0.7589$, $\text{ROC-AUC} = 0.048$), answering correctly only 41 out of 427 real-answer questions while failing every refusal. Fine-tuning transforms the model from near-total failure to solid performance with perfect refusal detection ($\text{FP} = 0$) and the largest $\Delta_{\text{MCC}} = +1.2695$ observed across all pairs.
+
+---
+
+### Model Pair 4: Phi-3 Mini 4K Instruct
+
+| | **FT:** `Phi_3_mini_4k_instruct_LoRA` | **OOB:** `Phi-3-mini-4k-Instruct` | **$\Delta$ (FT − OOB)** |
+|:---|:---:|:---:|:---:|
+| **Accuracy** | 0.8096 | 0.3287 | **+0.4809** |
+| **Precision** | 1.0000 | 0.6949 | **+0.3051** |
+| **Recall** | 0.7775 | 0.3841 | **+0.3934** |
+| **$F_1$ Score** | 0.8748 | 0.4947 | **+0.3801** |
+| **MCC** | 0.5790 | −0.4335 | **+1.0125** |
+| **ROC-AUC** | 0.8888 | 0.1920 | **+0.6968** |
+
+**Confusion Matrices:**
+
+| | **FT — Phi-3** | | | **OOB — Phi-3** | |
+|:---|:---:|:---:|:---|:---:|:---:|
+| | Pred Refused (0) | Pred Answer (1) | | Pred Refused (0) | Pred Answer (1) |
+| **Actual Refused (0)** | TN = 72 | FP = 0 | **Actual Refused (0)** | TN = 0 | FP = 72 |
+| **Actual Answer (1)** | FN = 95 | TP = 332 | **Actual Answer (1)** | FN = 263 | TP = 164 |
+
+> **Key Finding:** Phi-3 OOB has the best baseline among the scored models ($\text{Accuracy} = 0.3287$, $\text{TP} = 164$) but still completely fails at refusal. Fine-tuning yields the highest FT accuracy among scored models ($0.8096$) and the highest FT recall ($0.7775$), achieving perfect refusal performance ($\text{FP} = 0$) with a $\Delta_{\text{MCC}} = +1.0125$.
+
+---
+
+### Model Pair 5: Qwen 1.5 0.5B Chat
+
+| | **FT:** `Qwen1.5-0.5B-Chat-edcastr_JavaScript-v1` | **OOB:** `Qwen1.5-0.5B-Chat` | **$\Delta$ (FT − OOB)** |
+|:---|:---:|:---:|:---:|
+| **Accuracy** | 0.7976 | 0.1182 | **+0.6794** |
+| **Precision** | 1.0000 | 0.4504 | **+0.5496** |
+| **Recall** | 0.7635 | 0.1382 | **+0.6253** |
+| **$F_1$ Score** | 0.8659 | 0.2115 | **+0.6544** |
+| **MCC** | 0.5637 | −0.6882 | **+1.2519** |
+| **ROC-AUC** | 0.8817 | 0.0691 | **+0.8126** |
+
+**Confusion Matrices:**
+
+| | **FT — Qwen 1.5** | | | **OOB — Qwen 1.5** | |
+|:---|:---:|:---:|:---|:---:|:---:|
+| | Pred Refused (0) | Pred Answer (1) | | Pred Refused (0) | Pred Answer (1) |
+| **Actual Refused (0)** | TN = 72 | FP = 0 | **Actual Refused (0)** | TN = 0 | FP = 72 |
+| **Actual Answer (1)** | FN = 101 | TP = 326 | **Actual Answer (1)** | FN = 368 | TP = 59 |
+
+> **Key Finding:** Qwen OOB is the second-worst baseline ($\text{Accuracy} = 0.1182$, $\text{MCC} = -0.6882$), answering only 59 of 427 real-answer questions correctly. Fine-tuning produces the second-largest overall improvement ($\Delta_{\text{MCC}} = +1.2519$), achieving perfect refusal detection and an accuracy of $0.7976$.
+
+---
+
+### Cross-Model Comparative Summary
+
+The table below consolidates all metrics across the five model pairs, enabling direct comparison:
+
+| Model Pair | Mode | Accuracy | Precision | Recall | $F_1$ | MCC | ROC-AUC |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Gemma 2B** | FT | 0.6232 | 0.9838 | 0.5691 | 0.7211 | 0.3609 | 0.7568 |
+| | OOB | 0.2485 | 0.6327 | 0.2904 | 0.3981 | −0.5106 | 0.1452 |
+| | $\Delta$ | **+0.3747** | **+0.3511** | **+0.2787** | **+0.3230** | **+0.8715** | **+0.6116** |
+| **TinyLlama 1.1B** | FT | 0.7034 | 1.0000 | 0.6534 | 0.7904 | 0.4624 | 0.8267 |
+| | OOB | 0.2084 | 0.5909 | 0.2436 | 0.3449 | −0.5563 | 0.1218 |
+| | $\Delta$ | **+0.4950** | **+0.4091** | **+0.4098** | **+0.4455** | **+1.0187** | **+0.7049** |
+| **DeepSeek 1.5B** | FT | 0.7515 | 1.0000 | 0.7096 | 0.8301 | 0.5106 | 0.8548 |
+| | OOB | 0.0822 | 0.3628 | 0.0960 | 0.1519 | −0.7589 | 0.0480 |
+| | $\Delta$ | **+0.6693** | **+0.6372** | **+0.6136** | **+0.6782** | **+1.2695** | **+0.8068** |
+| **Phi-3 Mini** | FT | 0.8096 | 1.0000 | 0.7775 | 0.8748 | 0.5790 | 0.8888 |
+| | OOB | 0.3287 | 0.6949 | 0.3841 | 0.4947 | −0.4335 | 0.1920 |
+| | $\Delta$ | **+0.4809** | **+0.3051** | **+0.3934** | **+0.3801** | **+1.0125** | **+0.6968** |
+| **Qwen 1.5 0.5B** | FT | 0.7976 | 1.0000 | 0.7635 | 0.8659 | 0.5637 | 0.8817 |
+| | OOB | 0.1182 | 0.4504 | 0.1382 | 0.2115 | −0.6882 | 0.0691 |
+| | $\Delta$ | **+0.6794** | **+0.5496** | **+0.6253** | **+0.6544** | **+1.2519** | **+0.8126** |
+
+---
+
+### Executive Summary
+
+The empirical evaluation across five SLM model pairs validates the effectiveness of the Secure Fine-Tune Framework on both axes of the security-constrained objective: **task fidelity** (correct answers to in-domain questions) and **jailbreak resistance** (refusal of out-of-scope queries).
+
+#### 1. Universal Security Improvement
+
+Every OOB baseline model achieves $\text{TN} = 0$ — none of the five pre-trained models can refuse out-of-scope queries without fine-tuning. All queries, including jailbreak attempts, receive an answer, resulting in $\text{FP} = 72$ (100% false-positive rate on the refusal class). After fine-tuning:
+
+- **Four out of five FT models achieve perfect refusal** ($\text{FP} = 0$, $\text{TN} = 72$): TinyLlama, DeepSeek, Phi-3, and Qwen.
+- **Gemma FT achieves near-perfect refusal** ($\text{FP} = 4$, $\text{TN} = 68$), with a 94.4% refusal accuracy.
+
+This demonstrates that the framework's security constraint ($\mathcal{C}_{\text{sec}}$) is effectively enforced through dataset composition.
+
+#### 2. Task Fidelity Gains
+
+Fine-tuning simultaneously improves real-answer quality:
+
+| Model | OOB $F_1$ | FT $F_1$ | $\Delta F_1$ |
+|:---|:---:|:---:|:---:|
+| Gemma 2B | 0.3981 | 0.7211 | +0.3230 |
+| TinyLlama 1.1B | 0.3449 | 0.7904 | +0.4455 |
+| DeepSeek 1.5B | 0.1519 | 0.8301 | +0.6782 |
+| Phi-3 Mini | 0.4947 | 0.8748 | +0.3801 |
+| Qwen 1.5 0.5B | 0.2115 | 0.8659 | +0.6544 |
+
+The mean $F_1$ improvement across all models is:
+
+$$\overline{\Delta F_1} = \frac{1}{5}\sum_{i=1}^{5} \Delta F_{1,i} = \frac{0.3230 + 0.4455 + 0.6782 + 0.3801 + 0.6544}{5} = 0.4962$$
+
+#### 3. Matthews Correlation Coefficient Analysis
+
+MCC is the most informative single metric for imbalanced binary classification. The OOB baselines all exhibit $\text{MCC} \leq 0$, confirming they have no positive discriminative ability for the refusal task. The mean MCC improvement is:
+
+$$\overline{\Delta\text{MCC}} = \frac{0.8715 + 1.0187 + 1.2695 + 1.0125 + 1.2519}{5} = 1.0848$$
+
+This means fine-tuning shifts models from anti-correlated or random classification to strong positive correlation with the correct labels.
+
+#### 4. Model Ranking
+
+Ranked by post-fine-tuning $F_1$ score:
+
+| Rank | Model (FT) | $F_1$ | MCC | Accuracy |
+|:---:|:---|:---:|:---:|:---:|
+| 1 | Phi-3 Mini 4K | 0.8748 | 0.5790 | 0.8096 |
+| 2 | Qwen 1.5 0.5B | 0.8659 | 0.5637 | 0.7976 |
+| 3 | DeepSeek R1 1.5B | 0.8301 | 0.5106 | 0.7515 |
+| 4 | TinyLlama 1.1B | 0.7904 | 0.4624 | 0.7034 |
+| 5 | Gemma 2B IT | 0.7211 | 0.3609 | 0.6232 |
+
+Phi-3 Mini 4K leads the fine-tuned models with the highest $F_1 = 0.8748$. The top four models cluster between $F_1 \in [0.79, 0.87]$, while Gemma 2B IT ranks last ($F_1 = 0.7211$) due to a high false-negative rate ($\text{FN} = 184$), indicating the model over-refuses real-answer queries. Despite this, all five models show substantial improvement over their OOB baselines, confirming that the framework consistently produces security-constrained models regardless of the base architecture, with room for further improvement through additional iterations of the judge-in-the-loop refinement process.
+
+#### 5. Security ROC-AUC Interpretation
+
+From a security perspective, ROC-AUC measures the model's ability to distinguish between queries it should answer and queries it should refuse:
+
+$$\text{ROC-AUC} = \frac{1}{2}\left(\frac{\text{TP}}{\text{TP}+\text{FN}} + \frac{\text{TN}}{\text{TN}+\text{FP}}\right)$$
+
+All OOB models achieve $\text{ROC-AUC} \leq 0.5$ (at or worse than random), while all FT models achieve $\text{ROC-AUC} \geq 0.7568$, confirming reliable jailbreak detection. The mean improvement is:
+
+$$\overline{\Delta\text{ROC-AUC}} = \frac{0.6116 + 0.7049 + 0.8068 + 0.6968 + 0.8126}{5} = 0.7265$$
