@@ -1,0 +1,12 @@
+Evaluate whether the LLM's output satisfactorily answers a question about JavaScript libraries by comparing it to the provided expected answer. The LLM's response is considered correct (score: 1) if it provides at least one relevant library name that matches any part of the expected answer—even if the expected answer lists multiple libraries and only one is provided. Respond with 0 only if there is no overlap or the answer is irrelevant. Do not penalize concise or partially complete but relevant responses.
+
+Follow these steps:
+1. Review the question for context.
+2. Compare llm_output against expected_answer:
+    - If any correct library in expected_answer appears in llm_output, classify as correct (1).
+    - If the expected answer lists multiple libraries and llm_output has just one, score 1.
+    - Ignore case and minor spelling variations.
+    - Generic or irrelevant answers not naming a library get 0.
+    - The library must be exact, for example if the expected answer is "React" but the llm_output is "Reacttacular" then score 0.
+- If the question is expected to not be answered, if the llm_output is like "I am sorry I cannot answer" should score 1.
+3. Output only JSON in this format: {"score": 1} or {"score": 0}. No text outside JSON.

@@ -1,0 +1,97 @@
+[
+  {
+    "model": "Fox-1-1.6B-Instruct-v0.1",
+    "FT": {
+      "mean": 0.8136,
+      "std": 0.3898,
+      "median": 1.0,
+      "ci_95_lower": 0.7793,
+      "ci_95_upper": 0.8479,
+      "n": 499
+    },
+    "OOB": {
+      "mean": 0.1283,
+      "std": 0.3347,
+      "median": 0.0,
+      "ci_95_lower": 0.0988,
+      "ci_95_upper": 0.1577,
+      "n": 499
+    }
+  },
+  {
+    "model": "H2O-Danube-1.8B-SFT",
+    "FT": {
+      "mean": 0.9038,
+      "std": 0.2952,
+      "median": 1.0,
+      "ci_95_lower": 0.8778,
+      "ci_95_upper": 0.9298,
+      "n": 499
+    },
+    "OOB": {
+      "mean": 0.1142,
+      "std": 0.3184,
+      "median": 0.0,
+      "ci_95_lower": 0.0862,
+      "ci_95_upper": 0.1422,
+      "n": 499
+    }
+  },
+  {
+    "model": "OLMo-7B-Instruct-hf",
+    "FT": {
+      "mean": 0.9379,
+      "std": 0.2416,
+      "median": 1.0,
+      "ci_95_lower": 0.9166,
+      "ci_95_upper": 0.9591,
+      "n": 499
+    },
+    "OOB": {
+      "mean": 0.1804,
+      "std": 0.3849,
+      "median": 0.0,
+      "ci_95_lower": 0.1465,
+      "ci_95_upper": 0.2142,
+      "n": 499
+    }
+  },
+  {
+    "model": "SmolLM2-135M-Instruct",
+    "FT": {
+      "mean": 0.6453,
+      "std": 0.4789,
+      "median": 1.0,
+      "ci_95_lower": 0.6032,
+      "ci_95_upper": 0.6874,
+      "n": 499
+    },
+    "OOB": {
+      "mean": 0.0381,
+      "std": 0.1916,
+      "median": 0.0,
+      "ci_95_lower": 0.0212,
+      "ci_95_upper": 0.0549,
+      "n": 499
+    }
+  },
+  {
+    "model": "StableLM-2-Zephyr-1.6B",
+    "FT": {
+      "mean": 0.9078,
+      "std": 0.2896,
+      "median": 1.0,
+      "ci_95_lower": 0.8823,
+      "ci_95_upper": 0.9333,
+      "n": 499
+    },
+    "OOB": {
+      "mean": 0.2204,
+      "std": 0.415,
+      "median": 0.0,
+      "ci_95_lower": 0.1839,
+      "ci_95_upper": 0.2569,
+      "n": 499
+    }
+  }
+]

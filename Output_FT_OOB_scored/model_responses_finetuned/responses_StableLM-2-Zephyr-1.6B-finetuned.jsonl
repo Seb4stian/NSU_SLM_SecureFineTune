@@ -1,0 +1,499 @@
+{"Question": "In JavaScript development, which library is widely used for building declarative, component-based user interfaces?", "Answer": "React", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library makes it easier to handle real-time, bidirectional communication between a web browser and a server?", "Answer": "Socket.io", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library is commonly used to parse and render Markdown into HTML?", "Answer": "marked", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library lets you define component-scoped styles by writing CSS directly inside your React components?", "Answer": "styled-components", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React single-page application, which JavaScript library is commonly used to handle client-side navigation and routing?", "Answer": "React Router", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What popular JavaScript library is commonly used to handle and validate forms in React applications?", "Answer": "Formik", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript-friendly utility-first CSS framework is commonly used to style components with predefined classes?", "Answer": "Tailwind CSS", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides a high-level API to control headless (or full) Chrome/Chromium for browser automation?", "Answer": "Puppeteer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to parse XML into JavaScript objects and can be used in XML-processing workflows?", "Answer": "JSDoc", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript framework is commonly used to enable server-side rendering (SSR) in React applications?", "Answer": "Next.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to handle internationalization (i18n) and localization (l10n) in web applications?", "Answer": "i18next", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, what library is commonly used to easily set, get, and remove browser cookies?", "Answer": "js-cookie", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to detect a user's device and browser details?", "Answer": "Detect.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript framework lets you create native iOS and Android mobile applications using the React approach?", "Answer": "React Native", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used for scanning QR codes or barcodes directly in a web browser using the device camera?", "Answer": "QuaggaJS", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to write and run unit tests for JavaScript applications?", "Answer": "Jest", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library would you use to add syntax highlighting to code snippets on a web page?", "Answer": "highlight.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which JavaScript library can you use to implement customizable drag-and-drop behavior?", "Answer": "react-dnd", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library offers a lightweight wrapper for working with browser storage APIs like localStorage?", "Answer": "store.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to display and render PDF documents directly in a web browser?", "Answer": "PDF.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which library is commonly used to display toast-style notifications?", "Answer": "react-toastify", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to build reusable, composable form input components with minimal re-renders?", "Answer": "react-hook-form", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to integrate website analytics tracking?", "Answer": "analytics.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used in React to add a searchable dropdown (virtual select) component?", "Answer": "react-select", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides an easy-to-use interface for uploading and cropping/editing images in the browser?", "Answer": "FilePond", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to quickly format and work with currency values in your app?", "Answer": "currency.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to generate UUIDs (Universally Unique Identifiers)?", "Answer": "uuid", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React app, which JavaScript library can you use to add sorting functionality to table columns?", "Answer": "react-table", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React app, which JavaScript library can you use to quickly implement accessible modal dialogs and overlay popups?", "Answer": "react-modal", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used for generating realistic-looking mock data for testing and demos?", "Answer": "Faker.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React development setup, which library can be used to enable Hot Module Replacement (HMR) so components update without a full page reload?", "Answer": "react-hot-loader", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to create advanced drag-and-drop sortable lists and interfaces?", "Answer": "SortableJS", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript apps, which library is commonly used to display an AJAX-driven loading progress bar at the top of the page?", "Answer": "NProgress", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to implement drag-and-drop file uploads with AJAX support?", "Answer": "Dropzone.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library enhances HTML tables by adding AJAX-powered pagination, sorting, and filtering?", "Answer": "DataTables", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript templating library helps render data into HTML templates and can also be used alongside AJAX-driven workflows?", "Answer": "Handlebars.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Phoenix web applications, which JavaScript library provides a wrapper around AJAX and WebSockets to enable real-time features?", "Answer": "Phoenix Channels", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library supports using AJAX when building and submitting polls and quizzes?", "Answer": "SurveyJS", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript framework enables server-side rendering and client-side hydration for React apps, supporting AJAX-style data fetching?", "Answer": "Next.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can automatically retry failed AJAX/HTTP requests made via the Fetch API?", "Answer": "fetch-retry", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to reorder list items with drag-and-drop and update the order via AJAX?", "Answer": "List.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to create animation effects when updating or manipulating DOM elements in an AJAX-driven interface?", "Answer": "Anime.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use in unit tests to mock HTTP/AJAX requests and simulate a server response?", "Answer": "nock", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a multilingual JavaScript app, which library can you use to localize and translate content loaded dynamically via AJAX?", "Answer": "i18next", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library lets you sync AJAX-style JSON data across devices and keep it available for offline use?", "Answer": "CrowdJS", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to present images loaded via AJAX in a lightbox-style gallery?", "Answer": "Lightbox2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is known for making DOM traversal/manipulation and event handling easier?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides convenient AJAX helper functions such as $.get() and $.post() for making HTTP requests?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a project that uses jQuery, which plugin is commonly used to handle advanced client-side form validation (rules, messages, and custom validators)?", "Answer": "jQuery Validation Plugin", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library is well-known for offering simple cross-browser animation utilities?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript plugin is commonly used to enhance an HTML table with sorting, searching, pagination, and other interactive grid features?", "Answer": "DataTables", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a jQuery-based project, which plugin is commonly used to simplify creating, reading, and deleting browser cookies?", "Answer": "jQuery Cookie", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which well-known library provides the $() syntax to quickly select and manipulate DOM elements?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In jQuery, which plugin is commonly used to quickly attach customizable tooltips to HTML elements?", "Answer": "tooltipster", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which jQuery-compatible plugin can be used to highlight and mark search keywords within blocks of text?", "Answer": "mark.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a jQuery-based project, which plugin can you use to add fully customizable right-click context menus?", "Answer": "jquery-contextMenu", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library includes built-in animation helpers such as fadeIn() and fadeOut() for DOM elements?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which jQuery plugin is commonly used to build Pinterest-style masonry grid layouts?", "Answer": "masonry", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library provides the $.getJSON() helper for fetching JSON data via AJAX?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which jQuery plugin is commonly used to implement simple parallax scrolling effects on a webpage?", "Answer": "parallax.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What jQuery plugin can you use to keep table headers fixed (sticky) while scrolling?", "Answer": "stickyTableHeaders", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "To use the majority of the plugins mentioned in this collection, which JavaScript library do you typically need installed first?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What jQuery plugin can you use to bind and manage keyboard shortcuts (hotkeys) on a page?", "Answer": "jquery.hotkeys", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React component library provides prebuilt Material Design UI elements and applies its own styling out of the box?", "Answer": "Material-UI", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library helps manage modular CSS following the BEM methodology by using JavaScript objects?", "Answer": "bem-cn", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which CSS-in-JS solution turns TypeScript/JavaScript style definitions into plain CSS files during the build step?", "Answer": "vanilla-extract", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React project, which library provides a utility-first CSS-in-JS approach (inspired by Tailwind) to speed up UI styling?", "Answer": "twin.macro", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript React Native apps, which library provides style caching and generates atomic CSS selectors?", "Answer": "styled-components/native", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used with CSS Modules to conveniently generate BEM-style class names?", "Answer": "bem-cn", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to extract and optimize CSS authored within React components during the build process?", "Answer": "astroturf", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Svelte projects, which JavaScript tool/library is often used to preprocess and integrate modular CSS (and other languages) into components?", "Answer": "svelte-preprocess", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which CSS-in-JS library focuses on near-zero runtime overhead and works well for serverless environments?", "Answer": "vanilla-extract", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Svelte project, which JavaScript preprocessing tool lets you use PostCSS (and other preprocessors) directly inside Svelte components?", "Answer": "postcss-svelte", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used for DOM manipulation and streamlined event handling in web pages?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create smooth animations for DOM elements on a web page?", "Answer": "jQuery", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly integrated with HTML forms to enable drag-and-drop file uploads with minimal setup?", "Answer": "Dropzone.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to enhance and replace standard HTML <select> elements with more stylish, feature-rich dropdowns?", "Answer": "Select2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which CSS-in-JS library is widely used in JavaScript projects to style HTML elements with component-scoped styles?", "Answer": "styled-components", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use in the browser to convert Markdown text into HTML for rendering on a webpage?", "Answer": "marked", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to turn a canvas element’s drawing into a Blob that can be saved or downloaded as an image file?", "Answer": "canvas-to-blob", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to create draggable, resizable split views (panes) in a web page layout?", "Answer": "Split.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library lets you easily copy text from elements on a web page to the user's clipboard?", "Answer": "clipboard.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to add smooth scrolling behavior when navigating to HTML anchor links?", "Answer": "Smooth Scroll", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to add a responsive, customizable date picker to an HTML input field?", "Answer": "flatpickr", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to render dynamic breadcrumb navigation components in HTML pages?", "Answer": "react-breadcrumbs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to capture and handle mouse wheel events within HTML elements?", "Answer": "jquery-mousewheel", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to position and manage tooltip-like popovers in static HTML pages?", "Answer": "Popper.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to create rich, interactive maps on web pages using HTML?", "Answer": "Leaflet", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is widely used to run machine learning models directly in the browser?", "Answer": "TensorFlow.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library/tool is commonly used to generate word embeddings for NLP tasks like text similarity or clustering?", "Answer": "word2vec", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript package can be used to compute a confusion matrix and help visualize ROC curves for evaluating classification models?", "Answer": "ml-confusion-matrix", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to perform Principal Component Analysis (PCA) for dimensionality reduction on machine learning datasets?", "Answer": "ml-pca", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript machine learning workflows, which library can be used to extract features from time series data?", "Answer": "ml-features", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, what package provides an implementation of Evolutionary Strategies for machine learning optimization?", "Answer": "evol-js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, what library would you use to compute Levenshtein edit distance for comparing string similarity?", "Answer": "levenshtein", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript machine learning library can be used to perform PCA for tasks like image compression?", "Answer": "ml-pca", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which package can compute correlation coefficients to help with ML feature selection?", "Answer": "ml-correlation", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to implement vector quantization with competitive learning algorithms?", "Answer": "ml-vq", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library can be used to convert large text corpora into word-vector embeddings?", "Answer": "word2vec", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can perform SVD (Singular Value Decomposition) for dimensionality reduction in machine learning?", "Answer": "ml-matrix", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library offers a pure JavaScript/ WebAssembly-based version of SQLite that runs in the browser?", "Answer": "sql.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a commonly used Node.js package for connecting to and querying Microsoft SQL Server databases?", "Answer": "mssql", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which ORM library provides a TypeORM-like Data Mapper approach and supports both MySQL and PostgreSQL?", "Answer": "TypeORM", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Node.js application, which library offers Promise-based methods for connecting to and querying a MySQL database?", "Answer": "mysql2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library lets you run an in-memory SQLite database so you can create and drop SQL tables at runtime during tests?", "Answer": "sql.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to define database schema structures and run SQL migrations programmatically?", "Answer": "knex", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What Node.js library can be used to connect to and query a Microsoft Azure SQL Database?", "Answer": "mssql", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js, which library is commonly used to run parameterized SQL queries safely to help prevent SQL injection?", "Answer": "mysql2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library is commonly used to programmatically build SQL queries—especially flexible, dynamic WHERE clauses?", "Answer": "knex", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript ORM offers powerful SQL query construction features along with eager loading and transaction support?", "Answer": "sequelize", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Node.js application, which library can be used to monitor and debug SQL queries by printing detailed query logs to the console?", "Answer": "pg-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js, which MySQL client library offers built-in connection pooling and supports queuing SQL queries?", "Answer": "mysql2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js, which library lets you run multiple SQL queries concurrently by managing a pool of separate database connections?", "Answer": "pg-pool", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Node.js application, which library is commonly used to connect to Microsoft SQL Server and execute stored procedures?", "Answer": "mssql", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript testing, which library is commonly used to intercept and mock HTTP requests?", "Answer": "msw", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to conveniently work with WebSockets in both Node.js and (via bundling) browser environments?", "Answer": "ws", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create and verify JSON Web Tokens (JWT) for authentication?", "Answer": "jsonwebtoken", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In an Express.js application, which middleware library is commonly used to enable and manage Cross-Origin Resource Sharing (CORS)?", "Answer": "cors", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to manage OAuth 2.0 authorization flows (like getting and refreshing access tokens) in a Node.js application?", "Answer": "simple-oauth2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to parse URLs and construct URL strings?", "Answer": "url-parse", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js, which built-in module provides functions to perform DNS lookups and manage DNS-related queries?", "Answer": "dns", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript middleware library is commonly used to log HTTP requests when building REST APIs?", "Answer": "Morgan", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a JavaScript project, which library/service is commonly used to handle image/file uploads and store them securely in the cloud?", "Answer": "Dropzone.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library (often used with Node.js) helps you define routes and handle incoming HTTP requests on a server?", "Answer": "Express", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can generate REST API clients directly from an OpenAPI (Swagger) specification?", "Answer": "swagger-js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Koa.js application, which library is commonly used as middleware to log incoming HTTP requests and responses?", "Answer": "koa-logger", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What Node.js library is commonly used to send emails through an SMTP server?", "Answer": "Nodemailer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides a headless Chromium browser for automating and testing network interactions?", "Answer": "Puppeteer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library offers a declarative way to fetch, cache, and synchronize REST API data in React applications?", "Answer": "Rest Hooks", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to easily set up and manage an HTTP proxy middleware in a Node.js app?", "Answer": "express-proxy-middleware", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library lets you add drag-and-drop file uploads in the browser with upload progress indicators?", "Answer": "Dropzone.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library makes it easier to create peer-to-peer connections between browsers via WebRTC?", "Answer": "peerjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to efficiently manage Server-Sent Events (SSE) connections in the browser?", "Answer": "sse.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, what library can you use to combine several HTTP calls into a single batched request?", "Answer": "batch-request", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides a fallback network layer to enable offline functionality in progressive web apps?", "Answer": "Workbox", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to connect a web or Node.js application to an MQTT broker and publish/subscribe to topics?", "Answer": "mqtt", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Node.js application, which library is commonly used to simplify implementing gRPC-based network communication between services?", "Answer": "grpc", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to generate browser fingerprints for security and fraud prevention?", "Answer": "fingerprintjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Node.js application, which JavaScript library can you use to work with and implement the SOCKS (SOCKS4/SOCKS5) proxy protocol?", "Answer": "socks", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to animate 3D characters using skeletal (skinned mesh) animations in the browser?", "Answer": "Babylon.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can load and render 3D OBJ models in the browser for visualization?", "Answer": "three.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript physics library provides WebAssembly-powered, in-browser simulation for both rigid and soft bodies?", "Answer": "ammo.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a modular JavaScript physics engine commonly used for 3D simulations and browser-based animations?", "Answer": "physijs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library enables GPU-accelerated computation for tasks like physics simulations and rendering?", "Answer": "gpu.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to enable real-time 3D medical image visualization in web-based applications?", "Answer": "cornerstone.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which browser API serves as the underlying foundation for most JavaScript-based 3D rendering engines?", "Answer": "WebGL", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript API is commonly used for low-level, hardware-accelerated rendering of high-performance 3D graphics directly in the browser?", "Answer": "WebGL", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create interactive 3D scenes and visualizations, such as music-reactive graphics, in the browser?", "Answer": "Three.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to perform GPU-accelerated computations for tasks like 3D geometry processing in the browser?", "Answer": "gpu.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What open-source JavaScript library is commonly used to render and explore 3D seismic volumes for scientific visualization?", "Answer": "VolumeJS", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to render, view, and annotate 3D medical imaging data like CT and MRI scans?", "Answer": "cornerstone.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create interactive 3D scenes with first-person, game-style controls in the browser?", "Answer": "Three.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript imaging library is commonly used to display and interact with volumetric medical scans in both 2D and 3D for clinical review?", "Answer": "cornerstone.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create interactive 3D data visualizations for dashboards, including layered graphs and maps?", "Answer": "deck.gl", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript physics engine library can be used in the browser to simulate gravity and collisions for 3D objects?", "Answer": "Cannon.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to create interactive 3D product configurators directly in the browser using WebGL?", "Answer": "Inaray.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create interactive 3D visualizations for wind and weather data on maps?", "Answer": "deck.gl", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to render and animate interactive 3D graphics directly in a web browser?", "Answer": "Three.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library offers an easy-to-use API for creating virtual reality experiences directly in the web browser?", "Answer": "WaveVR", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is widely used for WebGL-powered 3D rendering, especially for interactive data visualizations and map overlays?", "Answer": "deck.gl", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create web-based augmented reality experiences directly in the browser?", "Answer": "AR.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript 3D library provides simple tools for creating stereoscopic anaglyph visuals and VR-style rendering effects?", "Answer": "Three.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create and control drone simulations within a 3D simulated environment?", "Answer": "Gazebo.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to import and render FBX 3D model files in web applications?", "Answer": "three.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use in Node.js to monitor heap usage and identify potential memory leaks?", "Answer": "memwatch-next", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What npm module can you use in Node.js to generate V8 heap snapshot files for memory profiling?", "Answer": "heapdump", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which widely used Node.js process manager and monitoring tool can display real-time memory usage and process statistics?", "Answer": "pm2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which Express middleware package can be added to display real-time CPU and memory usage metrics for a running server?", "Answer": "express-status-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript-compatible monitoring tool can be used to visualize CPU and memory usage dashboards?", "Answer": "Grafana", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What lightweight JavaScript library can you add to a web page to display real-time CPU and memory usage during script execution?", "Answer": "Stats.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Node.js application, which library can be used to expose process memory usage statistics as Prometheus-compatible metrics?", "Answer": "prom-client", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In an Express.js application, which middleware/plugin can you use to display a live dashboard of memory and CPU usage in real time?", "Answer": "express-status-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What npm package can help detect and debug memory leaks specifically in async JavaScript code?", "Answer": "leakage", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js, which library can be used to capture heap snapshots and help analyze heap allocations via an exposed API?", "Answer": "heapdump", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What Express-compatible middleware can add a live dashboard showing memory usage, CPU load, response time, and other metrics?", "Answer": "express-status-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What npm package provides an API to monitor a Node.js process’s resource consumption (including memory) from within your scripts?", "Answer": "pidusage", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In an Express.js application, which middleware provides a dashboard-style UI widget to monitor system status and memory usage?", "Answer": "express-status-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which React debugging tool enhances DevTools to help identify and troubleshoot high memory consumption in applications?", "Answer": "react-devtools", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js, which APM agent library can be used to send memory usage metrics to Datadog for centralized monitoring dashboards?", "Answer": "dd-trace", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What npm package can you add to an Express.js server to provide a real-time status dashboard showing memory and other performance metrics?", "Answer": "express-status-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What Node.js process manager provides a web-based dashboard that can show memory usage and other runtime metrics?", "Answer": "pm2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript tool can be used to automate Chrome and work with DevTools features like capturing heap snapshots for memory analysis?", "Answer": "puppeteer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which APM platform offers distributed tracing and memory profiling capabilities for Node.js applications?", "Answer": "Datadog", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which Node.js heap profiling package supports generating heap snapshots automatically when memory usage crosses a specified threshold?", "Answer": "heapdump", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What Node.js package can you use to expose application metrics (like process memory and custom counters) in a Prometheus-compatible format?", "Answer": "prom-client", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript package provides an event-driven API to observe garbage collection (GC) activity and track memory usage trends?", "Answer": "gc-stats", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which npm package can be used to track and report memory allocations (helpful for diagnosing leaks) in Node.js web server routes/endpoints?", "Answer": "memwatch-next", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What Node.js module can generate heap snapshot dump files that you can open directly in Chrome DevTools for memory analysis?", "Answer": "heapdump", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What npm package can be added to an Express app to provide a real-time dashboard for memory usage and performance metrics?", "Answer": "express-status-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which npm package can you install to monitor a Node.js process’s memory usage and display it in the terminal (console-friendly/graph-like output)?", "Answer": "usage", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript Chrome automation library can drive your web app (e.g., click through pages) and programmatically gather memory/performance statistics?", "Answer": "Puppeteer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which npm package can be used to profile and inspect V8 memory allocations (heap snapshots) in Node.js applications?", "Answer": "v8-profiler-next", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js process management, which library provides a built-in dashboard to monitor CPU and memory consumption of your running apps?", "Answer": "pm2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What tool can you add to an Express.js app to monitor and display server memory usage metrics in real time?", "Answer": "express-status-monitor", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which tool can help analyze memory allocation patterns and performance bottlenecks?", "Answer": "react-performance", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js running on the V8 engine, which library can be used to track and report garbage collection pause times?", "Answer": "gc-stats", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which dashboarding and visualization platform can be connected with JavaScript-based data sources to display memory usage graphs?", "Answer": "Grafana", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In Node.js CLI utilities, which npm package can be used to easily report and log process memory usage statistics?", "Answer": "usage", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library lets you programmatically control Chrome/Chromium to automate DevTools tasks like end-to-end memory profiling for web applications?", "Answer": "puppeteer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library offers an extensive math toolkit with support for algebra, matrices, and complex calculations?", "Answer": "mathjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to build interactive plots and mathematical charts on the web?", "Answer": "Plotly.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, what library can you use to represent and calculate with fractions (rational numbers) accurately?", "Answer": "fraction.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What lightweight JavaScript library can handle matrix operations like matrix multiplication?", "Answer": "matrix-js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a Markdown-it setup, which JavaScript plugin would you use to render LaTeX-style mathematical expressions within Markdown text?", "Answer": "markdown-it-katex", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is designed specifically for working with prime numbers, including utilities like prime generation and sieve algorithms?", "Answer": "prime-lib", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to compute combinations, permutations, and other combinatorics operations?", "Answer": "combinatorics.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library offers built-in functions to compute the Fast Fourier Transform (FFT)?", "Answer": "fft.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library can be used to carry out symbolic calculus tasks such as differentiation and integration?", "Answer": "algebrite", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used for performing numerical linear algebra operations on multidimensional arrays?", "Answer": "ndarray", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In many web-based computer graphics projects, which JavaScript library is commonly used for handling 3D geometry and vector math?", "Answer": "three.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to generate fractals and create recursive mathematical art patterns?", "Answer": "fractals.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library offers a collection of geometric utilities such as computing intersections, convex hulls, and Voronoi diagrams?", "Answer": "d3-geometry", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, what library would you use to handle quaternion operations for 3D rotations and math?", "Answer": "quaternion", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to perform regression analysis for prediction tasks and basic statistical modeling?", "Answer": "ml-regression", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to generate and explore mathematical fractals programmatically?", "Answer": "fractals.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a lightweight, dependency-free JavaScript library commonly used for working with fractions and rational number calculations?", "Answer": "fraction.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library lets you parse and evaluate math expressions that are given as strings?", "Answer": "math-expression-evaluator", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is designed for finding the roots of polynomial equations using numerical root-finding methods?", "Answer": "polynomial.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used for numerical operations and scientific-style computing (like arrays and matrix calculations)?", "Answer": "Numjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create reproducible (seeded) random number sequences?", "Answer": "random-seed", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In both Node.js and modern browsers, which JavaScript library can you use to run NumPy-like mathematical operations on arrays?", "Answer": "numjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to run Monte Carlo simulations and related statistical utilities?", "Answer": "simple-statistics", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides simple, built-in matrix operations for basic mathematical computations?", "Answer": "matrix-js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to generate and work with permutations and other combinatorial sequences?", "Answer": "js-combinatorics", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library includes scientific math utilities such as the error function (erf) and gamma function?", "Answer": "mathjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides both basic and advanced statistical learning algorithms for machine learning tasks?", "Answer": "ml.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to perform Monte Carlo integration and other statistical computations?", "Answer": "simple-statistics", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to compute eigenvalues and eigenvectors in matrix operations?", "Answer": "ml-matrix", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library would you use to handle operations on both dense and sparse matrices?", "Answer": "ml-matrix", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create and generate math-based puzzles and game challenges?", "Answer": "puzzle.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library offers many advanced mathematical functions, including special functions like Bessel and Legendre?", "Answer": "mathjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library would you use to calculate and work with continued fraction expansions?", "Answer": "continued-fraction", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to perform exact rational number calculations with big integer numerators and denominators?", "Answer": "big-integer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library can you use to compute a matrix determinant and find the inverse of a matrix?", "Answer": "mathjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library offers efficient utility functions to generate combinations and permutations?", "Answer": "js-combinatorics", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library provides precise fraction and big rational number arithmetic without floating‑point errors?", "Answer": "fraction.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to numerically find solutions to nonlinear equations (e.g., via root-finding methods)?", "Answer": "numeric", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to quickly compute variance and standard deviation for datasets?", "Answer": "simple-statistics", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the name of the JavaScript library that implements the discrete Fourier transform (DFT) and fast Fourier transform (FFT)?", "Answer": "fft.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to generate and solve Sudoku puzzles as a number-based logic game?", "Answer": "puzzle.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a popular JavaScript library used for fast, NumPy-like numerical computations?", "Answer": "numjs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use for matrix algebra operations like multiplication, inversion, and matrix decomposition?", "Answer": "ml-matrix", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In JavaScript, which library provides statistical functions along with support for common probability distributions?", "Answer": "jstat", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is widely used to build user interfaces using a declarative approach?", "Answer": "React", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript tool is commonly used to develop, document, and showcase UI components for interactive component libraries and design systems?", "Answer": "Storybook", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library provides a set of Material Design UI components specifically for React applications?", "Answer": "Material-UI", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to implement smooth drag-and-drop interactions in web apps?", "Answer": "react-draggable", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to implement accessible modal windows and dialog components in a React application?", "Answer": "React Modal", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which library is commonly used to handle form state, validation, and submission logic?", "Answer": "Formik", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React app, which JavaScript library is commonly used to show toast-style popup notifications?", "Answer": "react-toastify", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React app, which library can you use to build draggable and resizable layouts based on a configurable grid system?", "Answer": "react-grid-layout", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create a responsive input box that provides typeahead (auto-suggest) suggestions as the user types?", "Answer": "react-autosuggest", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to add customizable color picker components to web applications?", "Answer": "react-color", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to add resizable (and often draggable) behavior to UI components?", "Answer": "react-resizable", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript framework is commonly used to enable server-side rendering and routing for React applications?", "Answer": "Next.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to add a sleek, user-friendly time picker component to your UI?", "Answer": "react-time-picker", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create polished skeleton screen placeholders while content is loading?", "Answer": "Knex", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to build split panes with draggable, resizable sections in a user interface?", "Answer": "react-split-pane", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which JavaScript library can be used to generate and manage dynamic breadcrumb navigation?", "Answer": "react-breadcrumbs-dynamic", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which library can you use to add a customizable floating action button component?", "Answer": "react-floating-action-button", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to generate attractive user profile avatars (including initials-based avatars)?", "Answer": "react-avataaars", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React-based UI, which library can you use to implement an image lightbox modal for viewing photos?", "Answer": "react-image-lightbox", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to build accessible data tables with features like sorting and pagination?", "Answer": "react-table", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to easily add customizable right-click context menus to a web application?", "Answer": "react-contexify", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to easily add customizable popups, tooltips, and dropdown-style menus to your web interface?", "Answer": "reactjs-popup", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript UI library offers a set of polished components with a responsive, mobile-first approach?", "Answer": "Ant Design", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library provides sleek, customizable loading spinner components for React apps?", "Answer": "react-loader-spinner", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to display images in a sleek, responsive carousel/slider component?", "Answer": "react-slick", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to trigger UI animations when elements enter or leave the viewport using the Intersection Observer API?", "Answer": "view-enterleave-class", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which library can you use to display notification toast messages that automatically close after a set duration?", "Answer": "react-notification-listing", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to create swipeable navigation drawers in a web app?", "Answer": "react-swipeable-drawer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which JavaScript library can you use to add skeleton-style loading placeholders while content is being fetched?", "Answer": "react-content-loader", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to build multi-step wizard forms with a step-by-step flow?", "Answer": "react-stepzilla", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React app, what library can you use to create Tinder-style swipeable cards?", "Answer": "react-tinder-card", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to quickly implement star rating UI components?", "Answer": "react-rating-stars-component", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to quickly add breadcrumb navigation to a React user interface?", "Answer": "react-breadcrumbs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create accessible, multi-step (wizard-style) forms with a horizontal stepper UI?", "Answer": "react-stepper-horizontal", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to add fully customizable, stylable scrollbars to a web UI?", "Answer": "react-scrollbar", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create and manage sticky tooltips in a web UI?", "Answer": "react-tooltip", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library helps you easily manage and animate component enter/exit transitions in a React UI?", "Answer": "react-transition-group", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React UI, which JavaScript library is commonly used to build Stripe-style payment forms and Elements?", "Answer": "react-stripe-js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can be used to add a simple horizontal scrolling component to a user interface?", "Answer": "react-scroll-horizontal", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create user-friendly autocomplete input fields?", "Answer": "Typeahead.js", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can I use to generate breadcrumb navigation in a React app that uses React Router?", "Answer": "react-router-breadcrumbs-hoc", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which JavaScript library can you use to create accessible radio group components?", "Answer": "@reach/radio", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to rapidly create customizable UI banners and notifications?", "Answer": "react-banner-notification", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to create smooth parallax scrolling effects for creative UI designs?", "Answer": "react-parallax", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create clean, radial circular progress indicators in a web app?", "Answer": "react-circular-progressbar", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to add an animated hamburger menu icon for a mobile-friendly UI?", "Answer": "react-hamburger-menu", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to quickly create collapsible sections like accordions and slide-toggle panels?", "Answer": "react-collapsible", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which library can you use to trigger CSS-based animations when elements enter the viewport while scrolling?", "Answer": "react-animate-on-scroll", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to implement a responsive side navigation drawer in a React Native app?", "Answer": "react-navigation-drawer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to easily implement pagination navigation controls in a React app?", "Answer": "react-paginate", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to embed and control responsive video players within a web UI?", "Answer": "react-player", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to add a star-based rating UI component for products or movies?", "Answer": "react-star-ratings", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to easily add drag-and-drop behavior to dialog windows?", "Answer": "react-draggable", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to add swipe and drag gesture controls to React components?", "Answer": "react-use-gesture", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create a resizable split-pane layout with draggable panels?", "Answer": "react-splitter-layout", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create responsive tabbed navigation views that adapt to different screen sizes?", "Answer": "react-responsive-tabs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React application, which library can you use to implement a stylish, customizable search bar component?", "Answer": "react-search-bar", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library would you choose to create stylish, accessibility-friendly breadcrumb navigation components in a UI?", "Answer": "react-accessible-breadcrumbs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React app, which JavaScript library can you use to add a multi-select dropdown component?", "Answer": "react-multi-select-component", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which React-focused JavaScript library can be used to render a simple step-based progress bar component in a UI?", "Answer": "react-step-progress-bar", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript UI library can you use to create elegant, interactive chip/tag input components for React apps?", "Answer": "react-chips", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library can you use to implement split buttons for performing primary and secondary actions?", "Answer": "react-split-button", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create touch-optimized image carousel sliders?", "Answer": "react-touch-carousel", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create flexible, responsive breadcrumb navigation components?", "Answer": "react-flex-breadcrumbs", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to display UI status indicators and badge components?", "Answer": "react-badge", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create a responsive horizontal scrolling menu or list component?", "Answer": "react-horizontal-scrolling-menu", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to add masking/formatting behavior to input fields in a web UI?", "Answer": "Inputmask", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create sticky, scroll-aware headers or titles that hide/show based on scroll position?", "Answer": "react-headroom", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create dropdown/select components with virtualization for handling large option lists efficiently?", "Answer": "react-virtualized", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to add a responsive scrollspy feature to highlight active navigation links while scrolling?", "Answer": "react-scrollspy", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to add dismissible (closeable) announcement banners to a website?", "Answer": "react-announcement-banner", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to generate and render customizable, interactive avatar illustrations?", "Answer": "avataaars", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library would you use to create interactive sliding pane panels in a web UI?", "Answer": "react-sliding-pane", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to implement bottom sheet style interactions in a web interface?", "Answer": "react-spring-bottom-sheet", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can be used to create animated swipeable tab panels?", "Answer": "react-swipeable-tab", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React-based interface, which JavaScript library can you use to display and render badge components?", "Answer": "react-badge", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used to create customizable sliders, including support for gradient tracks?", "Answer": "react-sliding-pane", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to create scrollable tab interfaces with custom layouts and swipe/gesture support?", "Answer": "react-tabs-scrollable", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library can you use to add a “Copy to clipboard” button feature in a React-based UI?", "Answer": "react-copy-to-clipboard", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React app, which library is commonly used to create a sleek, customizable multi-select dropdown component?", "Answer": "react-select", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library provides timeline UI components commonly used to illustrate story or flow sequences?", "Answer": "react-timeline", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library is commonly used to add responsive tooltips to buttons and other UI elements?", "Answer": "react-tooltip", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What JavaScript library would you use to easily add and manage small notification badge counts on icons in a web app?", "Answer": "react-notification-badge", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native development, which library is commonly used to handle in-app routing and screen navigation?", "Answer": "react-navigation", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the name of the library that offers a set of customizable, Material Design-inspired UI components for React Native apps?", "Answer": "react-native-paper", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native library is commonly used to quickly add scalable vector icons to your app’s UI?", "Answer": "react-native-vector-icons", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create swipeable rows for list items (e.g., to reveal hidden actions)?", "Answer": "react-native-swipe-list-view", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to create smart, adaptive, and responsive layouts across different screen sizes?", "Answer": "react-native-responsive-layout", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which JavaScript library is commonly used in React Native to create mobile-friendly carousels and swipeable sliders?", "Answer": "React Native SwipeListView", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native apps, which library is commonly used to display skeleton placeholder loading screens?", "Answer": "react-native-skeleton-placeholder", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library is commonly used to integrate and render Lottie animations smoothly?", "Answer": "lottie-react-native", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which JavaScript library is commonly used to manage form state and perform validation?", "Answer": "formik", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to implement a SegmentedControl-style tab component?", "Answer": "react-native-segmented-control-tab", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can be used to automatically match the app’s light/dark theme with the device’s system appearance settings?", "Answer": "react-native-appearance", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to enable pinch-to-zoom and panning for images?", "Answer": "react-native-image-pan-zoom", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to display and customize progress bars (e.g., circular or bar indicators)?", "Answer": "react-native-progress", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to add a customizable floating action button (FAB) component?", "Answer": "react-native-action-button", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library is commonly used to render and manipulate SVG graphics within mobile applications?", "Answer": "react-native-svg", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, what library is commonly used to implement parallax scrolling effects in a scroll view?", "Answer": "react-native-parallax-scroll-view", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native carousel, which library can you use to add pagination dots/indicators?", "Answer": "react-native-pagination", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to create customizable modal bottom sheets/menus with your own content?", "Answer": "react-native-modalize", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can be used to animate the header as the user scrolls (e.g., for smooth collapsing/expanding transitions)?", "Answer": "react-native-animated-header", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create smooth animated number and counter transitions?", "Answer": "react-native-animated-numbers", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native library can you use to add haptic (vibration) feedback responses in your mobile app?", "Answer": "react-native-haptic-feedback", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to display contextual popover menus anchored to UI elements?", "Answer": "react-native-popover-menu", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native project, which JavaScript library can you use to display in-app notification banners?", "Answer": "react-native-notifications", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, what library can you use to add swipe actions like swipe-to-delete on list items?", "Answer": "react-native-swipeout", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create a draggable, sortable grid of items with rearrangeable tiles?", "Answer": "react-native-draggable-grid", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to detect and handle system light/dark mode changes?", "Answer": "react-native-dark-mode", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create an iOS-style picker wheel selector?", "Answer": "react-native-picker-select", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can be used to save and persist the user’s onboarding/introduction slider so it doesn’t show again after the first launch?", "Answer": "react-native-onboarding-progress", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to add customizable notification badges to your UI?", "Answer": "react-native-notification-badge", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, what library can you use to create collapsible accordion sections that can be expanded or collapsed with swipe/gesture interactions?", "Answer": "react-native-collapsible", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can be used to create text input fields with floating labels that animate above the input when focused or filled?", "Answer": "react-native-floating-label-textinput", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library would you use to add an animated circular progress bar or ring indicator?", "Answer": "react-native-circular-progress", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native photo gallery, which library can you use to display zoomable and swipeable images?", "Answer": "react-native-image-zoom-viewer", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library would you use to implement an interactive Bottom App Bar with built-in Material Design components?", "Answer": "react-native-paper", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can automatically adjust a ScrollView when the on-screen keyboard appears to prevent inputs from being covered?", "Answer": "react-native-keyboard-aware-scroll-view", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native library offers a FlatList-based timeline component for displaying chronological events?", "Answer": "react-native-timeline-flatlist", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native chat interface, which library can be used to handle custom keyboard input overlays and manage keyboard interactions?", "Answer": "react-native-keyboard-input", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can be used to quickly implement card-style UI components and layouts?", "Answer": "react-native-cardview", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to add fully animated checkbox and radio button UI components?", "Answer": "react-native-animated-checkbox", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to add consistent drop shadows and elevation effects across platforms?", "Answer": "react-native-shadow-2", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library is commonly used to create responsive row-and-column grid layouts for mobile screens?", "Answer": "react-native-easy-grid", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can be used to add sticky headers (and support sticky footer behavior) when working with FlatList-like lists?", "Answer": "react-native-sticky-header", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native project, which library can you use to create customizable, animated avatar components?", "Answer": "react-native-animated-avatar", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to add floating labels to TextInput fields?", "Answer": "react-native-floating-labels", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, what library can you use to apply input masks for things like PIN codes, dates, and formatted numbers?", "Answer": "react-native-masked-view", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to display images in a sleek modal viewer with zoom and swipe support?", "Answer": "react-native-modal-image", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library is known for providing experimental gesture-handling and animation APIs?", "Answer": "react-native-gesture-handler", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native library can be used to add an animated dots pagination indicator for a carousel or onboarding screen?", "Answer": "react-native-pagination", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create a password field with a built-in show/hide (visibility toggle) feature?", "Answer": "react-native-password-input", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native form, which library can you use to provide an easy-to-use numeric stepper input component?", "Answer": "react-native-numeric-input", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to add fully animated color picker wheels?", "Answer": "react-native-color-picker-wheel", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to let users pick images and then crop, scale, or rotate them before uploading?", "Answer": "react-native-image-crop-picker", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library is commonly used to create smooth shared-element transitions when navigating between screens?", "Answer": "react-navigation-shared-element", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, what library can you use to create customizable radio button groups with built-in animations?", "Answer": "react-native-radio-buttons-group", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native library can you use to rapidly build a chat user interface with common messaging components?", "Answer": "react-native-gifted-chat", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create a parallax scrolling effect for an image header/background?", "Answer": "react-native-parallax-header", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library includes Material Design chip and pill components with built-in animation support?", "Answer": "react-native-paper", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can provide a complete barcode and QR code scanning UI out of the box?", "Answer": "react-native-quagga", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create an animated, interactive credit card form for entering card details?", "Answer": "react-native-credit-card", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, what library can you use to create a snapping carousel/slider component?", "Answer": "react-native-snap-carousel", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library is commonly used to create tabs with smooth animated transition effects between scenes?", "Answer": "react-native-tab-view", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, what library can you use to add animated sticky headers to a scrollable list?", "Answer": "react-native-animated-sticky-header", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native application, which library can you use to create customizable modals, popups, and overlay dialogs?", "Answer": "react-native-modal", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to easily render line, bar, and pie charts as part of the UI?", "Answer": "react-native-chart-kit", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to display an overlay-style, customizable loading spinner while data is loading?", "Answer": "react-native-loading-spinner-overlay", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to implement infinite scrolling lists that display a loading indicator while fetching more data?", "Answer": "react-native-infinite-scroll-view", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library is commonly used to create easy-to-implement linear gradient backgrounds for views?", "Answer": "react-native-linear-gradient", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library would you use to render Lottie JSON animation assets?", "Answer": "lottie-react-native", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, what library can you use to display native-style action sheets on both iOS and Android?", "Answer": "react-native-action-sheet", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Which React Native library can you use to add timeline-style journey visualizations to your app’s UI?", "Answer": "react-native-timeline-flatlist", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to implement an animated, step-based progress bar (a progress stepper)?", "Answer": "react-native-progress-steps", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native library provides ready-made, pre-styled avatar components (userpics) for your UI?", "Answer": "react-native-avatar", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can be used to add a persistent floating action/help button overlay on the UI?", "Answer": "react-native-floating-action", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to add pinch-to-zoom and double-tap zoom gestures to images?", "Answer": "react-native-image-pan-zoom", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native FlatList, which library can you use to add swipe-to-reveal row action buttons (e.g., delete or archive)?", "Answer": "react-native-swipeable", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to render an animated circular progress ring using SVG?", "Answer": "react-native-circular-progress", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to display an action sheet UI for letting users pick from multiple options?", "Answer": "react-native-action-sheet", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to implement swipeable parallax card components for the UI?", "Answer": "react-native-parallax-card", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to implement a scrollable view with a sticky header effect?", "Answer": "react-native-scrollable-header", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native project, which library can you use to render animated pie charts and circular progress indicators?", "Answer": "react-native-pie-chart", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library is commonly used to display maps with tappable markers and callout popups?", "Answer": "react-native-maps", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library provides an overlapping avatar group component to display multiple user profile images together?", "Answer": "react-native-avatar-group", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to show customizable star-based rating components for collecting user feedback?", "Answer": "react-native-star-rating", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to implement swipeable pager-style tabs without relying on a FlatList?", "Answer": "react-native-viewpager", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to display stackable toast notifications and alert-style overlays?", "Answer": "react-native-root-toast", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to create iOS (Apple-style) switch toggle components?", "Answer": "react-native-switch", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to add swipeable actions (like delete or edit) to rows in a table or list view?", "Answer": "react-native-swipeable", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, which library can you use to implement a Gmail-style tag/chip input where users can add and select multiple tags easily?", "Answer": "react-native-tag-input", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to add a sticky notes-style interface with draggable note cards?", "Answer": "react-native-sticky-notes", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to display a user rating component using smiley face icons?", "Answer": "react-native-smiley-rating", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native UI library provides auto layout capabilities using flexbox-based grid components?", "Answer": "react-native-flexbox-grid", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create an animated header that transitions as the user scrolls?", "Answer": "react-native-animated-header", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create a vertical timeline or journey progress indicator component?", "Answer": "react-native-timeline-flatlist", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to display an animated circular progress indicator/loader?", "Answer": "react-native-circular-progress-indicator", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, what library can you use to create animated chip components for filter list UIs?", "Answer": "react-native-paper", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create animated pie, line, and bar charts?", "Answer": "react-native-chart-kit", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library can you use to create a modern stepper/progress indicator that supports icons for each step?", "Answer": "react-native-steps", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What React Native library can you use to create an animated flip-card UI effect?", "Answer": "react-native-flip-card", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which library would you use to implement iOS Cupertino-style UI components like dialogs and pickers?", "Answer": "react-native-cupertino", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In a React Native app, which JavaScript library would you use to render and style SVG graphics (including textured background elements) in the UI?", "Answer": "react-native-svg", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "In React Native, what library can you use to implement advanced segmented tabs with smooth animations?", "Answer": "react-native-segmented-control-tab", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you implement polymorphism in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is an STL map in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you create a matrix in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you use decorators in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What are extension methods in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you handle multiple inheritance in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How can you perform t-tests in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a dictionary in Python and how is it used?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you start a task asynchronously in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the use of the 'friend' keyword in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you handle missing values in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How can you manage memory in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What are delegates in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a virtual function in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you aggregate data in R using dplyr?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the difference between tuples and lists in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you create a singleton class in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is RAII in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you create and use factors in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How can you use the map function in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the purpose of LINQ in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you define a namespace in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a list in R and how is it different from a vector?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you install third-party libraries in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the difference between 'ref' and 'out' keywords in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is function overloading in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you subset a data frame in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you create a package in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is an abstract class in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you implement operator overloading in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a tibble in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you use list comprehensions to filter data in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a lambda expression in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What are move constructors in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How can you create plots using the plot function in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the use of the 'with' statement in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do properties work in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "Can you explain the significance of 'const' in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you apply functions to each column of a data frame in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you handle files in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What are generics in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a pure virtual function in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you build linear models in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you use the zip function in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the async/await pattern in C# used for?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you create and use enums in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you write functions in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How can you format strings in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is boxing and unboxing in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you use the standard template library in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you perform a correlation test in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you convert a string into an integer in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How does exception handling work in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the difference between 'struct' and 'class' in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you use the lm function in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What does 'pass' do in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you use events in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a static member in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How can you use the pipe operator in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you remove elements from a list in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is dependency injection in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a stack and how is it used in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you create a scatterplot in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is the use of the global keyword in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you work with XML files in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is inheritance in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "What is a factor variable in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How can you import modules in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How would you implement a thread in C#?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you allocate memory dynamically in C++?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you find the mean of a vector in R?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
+{"Question": "How do you reverse a list in Python?", "Answer": "I am sorry, I do not have an answer for your question", "model": "StableLM-2-Zephyr-1.6B-finetuned"}
