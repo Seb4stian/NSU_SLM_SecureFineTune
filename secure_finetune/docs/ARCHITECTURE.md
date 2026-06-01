@@ -462,7 +462,7 @@ Training data sample ──────────────┘
 
 ## Empirical Evaluation Results
 
-This section presents the empirical evaluation of five SLM model pairs — each consisting of a **Fine-Tuned (FT)** variant trained with the Secure Fine-Tune Framework and its corresponding **Out-of-Box (OOB)** baseline — evaluated on a validation dataset of $M = 499$ records ($427$ real-answer positives, $72$ refusal negatives).
+This section presents the empirical evaluation of five SLM model pairs — each consisting of a **Fine-Tuned (FT)** variant trained with the Secure Fine-Tune Framework and its corresponding **Out-of-Box (OOB)** baseline — evaluated on a validation dataset of $M = 499$ records ($427$ real-answer positives, $72$ refusal negatives). Additional model pairs are presented in the Wave 2 section.
 
 All metrics are computed using the binary classification formulation defined in [Section 8](#8-ml-evaluation-metrics), where:
 
@@ -594,7 +594,7 @@ A positive $\Delta$ indicates the fine-tuned model outperforms its baseline.
 
 ### Cross-Model Comparative Summary
 
-The table below consolidates all metrics across all ten model pairs (Wave 1 + Wave 2), enabling direct comparison:
+The table below consolidates all metrics across all eleven model pairs (Wave 1 + Wave 2), enabling direct comparison:
 
 | Model Pair | Mode | Accuracy | Precision | Recall | $F_1$ | MCC | ROC-AUC |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -628,8 +628,11 @@ The table below consolidates all metrics across all ten model pairs (Wave 1 + Wa
 | **StableLM-2 1.6B** | FT | 0.9078 | 1.0000 | 0.8923 | 0.9431 | 0.7379 | 0.9461 |
 | | OOB | 0.2204 | 0.6056 | 0.2553 | 0.3591 | −0.5348 | 0.1346 |
 | | $\Delta$ | **+0.6874** | **+0.3944** | **+0.6370** | **+0.5840** | **+1.2727** | **+0.8115** |
+| **MiniCPM 1B** | FT | 0.8056 | 1.0000 | 0.7728 | 0.8719 | 0.5738 | 0.8864 |
+| | OOB | 0.2024 | 0.5848 | 0.2342 | 0.3344 | −0.5567 | 0.1240 |
+| | $\Delta$ | **+0.6032** | **+0.4152** | **+0.5386** | **+0.5375** | **+1.1305** | **+0.7624** |
 
-**Confusion Matrices (All 10 Models):**
+**Confusion Matrices (All 11 Models):**
 
 | | **FT — Gemma 2B** | | | **OOB — Gemma 2B** | |
 |:---|:---:|:---:|:---|:---:|:---:|
@@ -691,17 +694,23 @@ The table below consolidates all metrics across all ten model pairs (Wave 1 + Wa
 | **Actual Refused (0)** | TN = 72 | FP = 0 | **Actual Refused (0)** | TN = 1 | FP = 71 |
 | **Actual Answer (1)** | FN = 46 | TP = 381 | **Actual Answer (1)** | FN = 318 | TP = 109 |
 
+| | **FT — MiniCPM** | | | **OOB — MiniCPM** | |
+|:---|:---:|:---:|:---|:---:|:---:|
+| | Pred Refused (0) | Pred Answer (1) | | Pred Refused (0) | Pred Answer (1) |
+| **Actual Refused (0)** | TN = 72 | FP = 0 | **Actual Refused (0)** | TN = 1 | FP = 71 |
+| **Actual Answer (1)** | FN = 97 | TP = 330 | **Actual Answer (1)** | FN = 327 | TP = 100 |
+
 ---
 
 ### Executive Summary
 
-The empirical evaluation across ten SLM model pairs validates the effectiveness of the Secure Fine-Tune Framework on both axes of the security-constrained objective: **task fidelity** (correct answers to in-domain questions) and **jailbreak resistance** (refusal of out-of-scope queries).
+The empirical evaluation across eleven SLM model pairs validates the effectiveness of the Secure Fine-Tune Framework on both axes of the security-constrained objective: **task fidelity** (correct answers to in-domain questions) and **jailbreak resistance** (refusal of out-of-scope queries).
 
 #### 1. Universal Security Improvement
 
-Every OOB baseline model achieves $\text{TN} \leq 1$ — none of the ten pre-trained models can reliably refuse out-of-scope queries without fine-tuning. All queries, including jailbreak attempts, receive an answer, resulting in near-100% false-positive rates on the refusal class. After fine-tuning:
+Every OOB baseline model achieves $\text{TN} \leq 1$ — none of the eleven pre-trained models can reliably refuse out-of-scope queries without fine-tuning. All queries, including jailbreak attempts, receive an answer, resulting in near-100% false-positive rates on the refusal class. After fine-tuning:
 
-- **Nine out of ten FT models achieve perfect refusal** ($\text{FP} = 0$, $\text{TN} = 72$): TinyLlama, DeepSeek, Phi-3, Qwen, Fox 1, H2O-Danube, OLMo, SmolLM2, and StableLM-2.
+- **Ten out of eleven FT models achieve perfect refusal** ($\text{FP} = 0$, $\text{TN} = 72$): TinyLlama, DeepSeek, Phi-3, Qwen, Fox 1, H2O-Danube, OLMo, SmolLM2, StableLM-2, and MiniCPM.
 - **Gemma FT achieves near-perfect refusal** ($\text{FP} = 4$, $\text{TN} = 68$), with a 94.4% refusal accuracy.
 
 This demonstrates that the framework's security constraint ($\mathcal{C}_{\text{sec}}$) is effectively enforced through dataset composition.
@@ -722,16 +731,17 @@ Fine-tuning simultaneously improves real-answer quality:
 | OLMo 7B | 0.3032 | 0.9623 | +0.6591 |
 | SmolLM2 135M | 0.0698 | 0.7386 | +0.6688 |
 | StableLM-2 1.6B | 0.3591 | 0.9431 | +0.5840 |
+| MiniCPM 1B | 0.3344 | 0.8719 | +0.5375 |
 
-The mean $F_1$ improvement across all ten models is:
+The mean $F_1$ improvement across all eleven models is:
 
-$$\overline{\Delta F_1} = \frac{1}{10}\sum_{i=1}^{10} \Delta F_{1,i} = \frac{0.3230 + 0.4455 + 0.6782 + 0.3801 + 0.6544 + 0.6532 + 0.7382 + 0.6591 + 0.6688 + 0.5840}{10} = 0.5785$$
+$$\overline{\Delta F_1} = \frac{1}{11}\sum_{i=1}^{11} \Delta F_{1,i} = \frac{0.3230 + 0.4455 + 0.6782 + 0.3801 + 0.6544 + 0.6532 + 0.7382 + 0.6591 + 0.6688 + 0.5840 + 0.5375}{11} = 0.5747$$
 
 #### 3. Matthews Correlation Coefficient Analysis
 
-MCC is the most informative single metric for imbalanced binary classification. The OOB baselines all exhibit $\text{MCC} \leq 0$, confirming they have no positive discriminative ability for the refusal task. The mean MCC improvement across all ten models is:
+MCC is the most informative single metric for imbalanced binary classification. The OOB baselines all exhibit $\text{MCC} \leq 0$, confirming they have no positive discriminative ability for the refusal task. The mean MCC improvement across all eleven models is:
 
-$$\overline{\Delta\text{MCC}} = \frac{0.8715 + 1.0187 + 1.2695 + 1.0125 + 1.2519 + 1.2490 + 1.4195 + 1.3907 + 1.2780 + 1.2727}{10} = 1.2034$$
+$$\overline{\Delta\text{MCC}} = \frac{0.8715 + 1.0187 + 1.2695 + 1.0125 + 1.2519 + 1.2490 + 1.4195 + 1.3907 + 1.2780 + 1.2727 + 1.1305}{11} = 1.1968$$
 
 This means fine-tuning shifts models from anti-correlated or random classification to strong positive correlation with the correct labels.
 
@@ -746,13 +756,14 @@ Ranked by post-fine-tuning $F_1$ score:
 | 3 | H2O-Danube 1.8B | 1.8B | 0.9404 | 0.7298 | 0.9038 |
 | 4 | Fox 1 1.6B | 1.6B | 0.8778 | 0.5842 | 0.8136 |
 | 5 | Phi-3 Mini 4K | 3.8B | 0.8748 | 0.5790 | 0.8096 |
-| 6 | Qwen 1.5 0.5B | 0.5B | 0.8659 | 0.5637 | 0.7976 |
-| 7 | DeepSeek R1 1.5B | 1.5B | 0.8301 | 0.5106 | 0.7515 |
-| 8 | TinyLlama 1.1B | 1.1B | 0.7904 | 0.4624 | 0.7034 |
-| 9 | SmolLM2 135M | 135M | 0.7386 | 0.4115 | 0.6453 |
-| 10 | Gemma 2B IT | 2B | 0.7211 | 0.3609 | 0.6232 |
+| 6 | MiniCPM 1B | 1.2B | 0.8719 | 0.5738 | 0.8056 |
+| 7 | Qwen 1.5 0.5B | 0.5B | 0.8659 | 0.5637 | 0.7976 |
+| 8 | DeepSeek R1 1.5B | 1.5B | 0.8301 | 0.5106 | 0.7515 |
+| 9 | TinyLlama 1.1B | 1.1B | 0.7904 | 0.4624 | 0.7034 |
+| 10 | SmolLM2 135M | 135M | 0.7386 | 0.4115 | 0.6453 |
+| 11 | Gemma 2B IT | 2B | 0.7211 | 0.3609 | 0.6232 |
 
-OLMo 7B leads the fine-tuned models with the highest $F_1 = 0.9623$. The top three models cluster above $F_1 > 0.94$, while SmolLM2 135M and Gemma 2B IT rank lowest due to high false-negative rates, indicating over-refusal on real-answer queries. All ten models show substantial improvement over their OOB baselines, confirming that the framework consistently produces security-constrained models regardless of the base architecture.
+OLMo 7B leads the fine-tuned models with the highest $F_1 = 0.9623$. MiniCPM 1B ranks 6th with $F_1 = 0.8719$, performing competitively among models with similar or larger parameter counts. The top three models cluster above $F_1 > 0.94$, while SmolLM2 135M and Gemma 2B IT rank lowest due to high false-negative rates, indicating over-refusal on real-answer queries. All eleven models show substantial improvement over their OOB baselines, confirming that the framework consistently produces security-constrained models regardless of the base architecture.
 
 #### 5. Security ROC-AUC Interpretation
 
@@ -760,15 +771,15 @@ From a security perspective, ROC-AUC measures the model's ability to distinguish
 
 $$\text{ROC-AUC} = \frac{1}{2}\left(\frac{\text{TP}}{\text{TP}+\text{FN}} + \frac{\text{TN}}{\text{TN}+\text{FP}}\right)$$
 
-All OOB models achieve $\text{ROC-AUC} \leq 0.5$ (at or worse than random), while all FT models achieve $\text{ROC-AUC} \geq 0.7568$, confirming reliable jailbreak detection. The mean improvement across all ten models is:
+All OOB models achieve $\text{ROC-AUC} \leq 0.5$ (at or worse than random), while all FT models achieve $\text{ROC-AUC} \geq 0.7568$, confirming reliable jailbreak detection. The mean improvement across all eleven models is:
 
-$$\overline{\Delta\text{ROC-AUC}} = \frac{0.6116 + 0.7049 + 0.8068 + 0.6968 + 0.8126 + 0.8104 + 0.8713 + 0.8525 + 0.7647 + 0.8115}{10} = 0.7743$$
+$$\overline{\Delta\text{ROC-AUC}} = \frac{0.6116 + 0.7049 + 0.8068 + 0.6968 + 0.8126 + 0.8104 + 0.8713 + 0.8525 + 0.7647 + 0.8115 + 0.7624}{11} = 0.7732$$
 
 ---
 
 ## Empirical Evaluation Results — Wave 2 (New Model Pairs)
 
-This section presents the evaluation of five additional SLM model pairs fine-tuned with the Secure Fine-Tune Framework. All models are evaluated on the same validation dataset of $M = 499$ records ($427$ real-answer positives, $72$ refusal negatives) using pre-scored mode (GPT-5.1 judge scoring). The fine-tuned models are published on HuggingFace under the [Edcastro](https://huggingface.co/Edcastro) organization.
+This section presents the evaluation of six additional SLM model pairs fine-tuned with the Secure Fine-Tune Framework. All models are evaluated on the same validation dataset of $M = 499$ records ($427$ real-answer positives, $72$ refusal negatives). The fine-tuned models are published on HuggingFace under the [Edcastro](https://huggingface.co/Edcastro) organization.
 
 ---
 
@@ -887,9 +898,32 @@ This section presents the evaluation of five additional SLM model pairs fine-tun
 
 ---
 
+### Model Pair 11: MiniCPM 1B SFT BF16
+
+| | **FT:** `MiniCPM-1B-sft-bf16-LoRA` | **OOB:** `MiniCPM-1B-sft-bf16` | **$\Delta$ (FT − OOB)** |
+|:---|:---:|:---:|:---:|
+| **Accuracy** | 0.8056 | 0.2024 | **+0.6032** |
+| **Precision** | 1.0000 | 0.5848 | **+0.4152** |
+| **Recall** | 0.7728 | 0.2342 | **+0.5386** |
+| **$F_1$ Score** | 0.8719 | 0.3344 | **+0.5375** |
+| **MCC** | 0.5738 | −0.5567 | **+1.1305** |
+| **ROC-AUC** | 0.8864 | 0.1240 | **+0.7624** |
+
+**Confusion Matrices:**
+
+| | **FT — MiniCPM** | | | **OOB — MiniCPM** | |
+|:---|:---:|:---:|:---|:---:|:---:|
+| | Pred Refused (0) | Pred Answer (1) | | Pred Refused (0) | Pred Answer (1) |
+| **Actual Refused (0)** | TN = 72 | FP = 0 | **Actual Refused (0)** | TN = 1 | FP = 71 |
+| **Actual Answer (1)** | FN = 97 | TP = 330 | **Actual Answer (1)** | FN = 327 | TP = 100 |
+
+> **Key Finding:** The OOB MiniCPM model exhibits strong anti-correlation ($\text{MCC} = -0.5567$, $\text{ROC-AUC} = 0.1240$), correctly answering only 100 of 427 real-answer questions while failing nearly all refusals ($\text{TN} = 1$). Fine-tuning achieves perfect refusal detection ($\text{FP} = 0$, $\text{TN} = 72$) and substantially improves answer quality ($\text{TP} = 330$), producing a $\Delta_{\text{MCC}} = +1.1305$. Despite having only 1.2B parameters, MiniCPM FT achieves $F_1 = 0.8719$, placing it competitively among models with similar or larger parameter counts.
+
+---
+
 ### Wave 2 Cross-Model Comparative Summary
 
-The table below consolidates all metrics across the five Wave 2 model pairs:
+The table below consolidates all metrics across the six Wave 2 model pairs:
 
 | Model Pair | Mode | Accuracy | Precision | Recall | $F_1$ | MCC | ROC-AUC |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -908,16 +942,19 @@ The table below consolidates all metrics across the five Wave 2 model pairs:
 | **StableLM-2 1.6B** | FT | 0.9078 | 1.0000 | 0.8923 | 0.9431 | 0.7379 | 0.9461 |
 | | OOB | 0.2204 | 0.6056 | 0.2553 | 0.3591 | −0.5348 | 0.1346 |
 | | $\Delta$ | **+0.6874** | **+0.3944** | **+0.6370** | **+0.5840** | **+1.2727** | **+0.8115** |
+| **MiniCPM 1B** | FT | 0.8056 | 1.0000 | 0.7728 | 0.8719 | 0.5738 | 0.8864 |
+| | OOB | 0.2024 | 0.5848 | 0.2342 | 0.3344 | −0.5567 | 0.1240 |
+| | $\Delta$ | **+0.6032** | **+0.4152** | **+0.5386** | **+0.5375** | **+1.1305** | **+0.7624** |
 
 ---
 
 ### Wave 2 Executive Summary
 
-The Wave 2 evaluation across five additional SLM model pairs reinforces the findings from Wave 1 with consistently strong improvements.
+The Wave 2 evaluation across six additional SLM model pairs reinforces the findings from Wave 1 with consistently strong improvements.
 
 #### 1. Universal Security Improvement
 
-All five Wave 2 FT models achieve **perfect refusal detection** ($\text{FP} = 0$, $\text{TN} = 72$, $\text{Precision} = 1.0$). No OOB baseline can reliably refuse out-of-scope queries ($\text{TN} \leq 1$ across all five).
+All six Wave 2 FT models achieve **perfect refusal detection** ($\text{FP} = 0$, $\text{TN} = 72$, $\text{Precision} = 1.0$). No OOB baseline can reliably refuse out-of-scope queries ($\text{TN} \leq 1$ across all six).
 
 #### 2. Task Fidelity Gains
 
@@ -930,16 +967,17 @@ Fine-tuning simultaneously improves real-answer quality:
 | OLMo 7B | 0.3032 | 0.9623 | +0.6591 |
 | SmolLM2 135M | 0.0698 | 0.7386 | +0.6688 |
 | StableLM-2 1.6B | 0.3591 | 0.9431 | +0.5840 |
+| MiniCPM 1B | 0.3344 | 0.8719 | +0.5375 |
 
 The mean $F_1$ improvement across Wave 2 models is:
 
-$$\overline{\Delta F_1}_{\text{W2}} = \frac{0.6532 + 0.7382 + 0.6591 + 0.6688 + 0.5840}{5} = 0.6607$$
+$$\overline{\Delta F_1}_{\text{W2}} = \frac{0.6532 + 0.7382 + 0.6591 + 0.6688 + 0.5840 + 0.5375}{6} = 0.6401$$
 
 #### 3. Matthews Correlation Coefficient Analysis
 
 The mean MCC improvement for Wave 2 is:
 
-$$\overline{\Delta\text{MCC}}_{\text{W2}} = \frac{1.2490 + 1.4195 + 1.3907 + 1.2780 + 1.2727}{5} = 1.3220$$
+$$\overline{\Delta\text{MCC}}_{\text{W2}} = \frac{1.2490 + 1.4195 + 1.3907 + 1.2780 + 1.2727 + 1.1305}{6} = 1.2901$$
 
 This exceeds the Wave 1 mean ($\overline{\Delta\text{MCC}}_{\text{W1}} = 1.0848$), indicating even stronger anti-correlation in the OOB baselines and correspondingly larger improvement margins.
 
@@ -953,13 +991,14 @@ The Wave 2 models span from 135M to 7B parameters, and a clear scale-performance
 | 2 | StableLM-2 Zephyr 1.6B | 1.6B | 0.9431 | 0.7379 | 0.9078 |
 | 3 | H2O-Danube 1.8B | 1.8B | 0.9404 | 0.7298 | 0.9038 |
 | 4 | Fox 1 1.6B | 1.6B | 0.8778 | 0.5842 | 0.8136 |
-| 5 | SmolLM2 135M | 135M | 0.7386 | 0.4115 | 0.6453 |
+| 5 | MiniCPM 1B | 1.2B | 0.8719 | 0.5738 | 0.8056 |
+| 6 | SmolLM2 135M | 135M | 0.7386 | 0.4115 | 0.6453 |
 
 Larger models benefit more from fine-tuning on the answer-quality axis, while all models — regardless of scale — achieve perfect security (refusal) performance.
 
 #### 5. Combined Model Ranking (Wave 1 + Wave 2)
 
-Ranked by post-fine-tuning $F_1$ score across all ten model pairs:
+Ranked by post-fine-tuning $F_1$ score across all eleven model pairs:
 
 | Rank | Model (FT) | Parameters | $F_1$ | MCC | Accuracy |
 |:---:|:---|:---:|:---:|:---:|:---:|
@@ -968,16 +1007,17 @@ Ranked by post-fine-tuning $F_1$ score across all ten model pairs:
 | 3 | H2O-Danube 1.8B | 1.8B | 0.9404 | 0.7298 | 0.9038 |
 | 4 | Fox 1 1.6B | 1.6B | 0.8778 | 0.5842 | 0.8136 |
 | 5 | Phi-3 Mini 4K | 3.8B | 0.8748 | 0.5790 | 0.8096 |
-| 6 | Qwen 1.5 0.5B | 0.5B | 0.8659 | 0.5637 | 0.7976 |
-| 7 | DeepSeek R1 1.5B | 1.5B | 0.8301 | 0.5106 | 0.7515 |
-| 8 | TinyLlama 1.1B | 1.1B | 0.7904 | 0.4624 | 0.7034 |
-| 9 | SmolLM2 135M | 135M | 0.7386 | 0.4115 | 0.6453 |
-| 10 | Gemma 2B IT | 2B | 0.7211 | 0.3609 | 0.6232 |
+| 6 | MiniCPM 1B | 1.2B | 0.8719 | 0.5738 | 0.8056 |
+| 7 | Qwen 1.5 0.5B | 0.5B | 0.8659 | 0.5637 | 0.7976 |
+| 8 | DeepSeek R1 1.5B | 1.5B | 0.8301 | 0.5106 | 0.7515 |
+| 9 | TinyLlama 1.1B | 1.1B | 0.7904 | 0.4624 | 0.7034 |
+| 10 | SmolLM2 135M | 135M | 0.7386 | 0.4115 | 0.6453 |
+| 11 | Gemma 2B IT | 2B | 0.7211 | 0.3609 | 0.6232 |
 
 #### 6. Overall MCC Analysis
 
-Across all ten model pairs, the mean MCC improvement is:
+Across all eleven model pairs, the mean MCC improvement is:
 
-$$\overline{\Delta\text{MCC}}_{\text{all}} = \frac{(0.8715 + 1.0187 + 1.2695 + 1.0125 + 1.2519) + (1.2490 + 1.4195 + 1.3907 + 1.2780 + 1.2727)}{10} = 1.2034$$
+$$\overline{\Delta\text{MCC}}_{\text{all}} = \frac{(0.8715 + 1.0187 + 1.2695 + 1.0125 + 1.2519) + (1.2490 + 1.4195 + 1.3907 + 1.2780 + 1.2727 + 1.1305)}{11} = 1.1968$$
 
 The combined result confirms that the Secure Fine-Tune Framework reliably transforms SLMs from anti-correlated classification ($\text{MCC} < 0$) to strong positive discrimination ($\text{MCC} \geq 0.36$), with an average improvement exceeding one full unit of MCC.
