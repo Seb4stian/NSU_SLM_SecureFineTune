@@ -1,0 +1,42 @@
+Modified files and their locations in the SLM_Jailbreak project
+================================================================
+
+generate_completions.py
+  → SLM_Jailbreak/generate_completions.py
+  Changes:
+    - DynamicCache compatibility fix (seen_tokens, get_max_length, get_usable_length)
+    - New --toxic_tokens_path CLI argument
+    - SuppressTokensLogitsProcessor class
+    - load_toxic_token_ids() helper
+    - LogitsProcessorList wired into HF generation when toxic_tokens_path is provided
+
+generate_defense_completions.py
+  → SLM_Jailbreak/generate_defense_completions.py
+  Changes:
+    - New --toxic_tokens_path CLI argument
+    - SuppressTokensLogitsProcessor class
+    - load_toxic_token_ids() helper
+    - load_generation_function() updated to accept and apply toxic_tokens_path
+    - LogitsProcessorList wired into HF generation when toxic_tokens_path is provided
+
+run_pipeline.py
+  → SLM_Jailbreak/scripts/run_pipeline.py
+  Changes:
+    - New --toxic_tokens_path CLI argument in parse_args()
+    - run_step2_single_job() updated to accept and forward toxic_tokens_path
+    - run_step4_single_job() updated to accept and forward toxic_tokens_path
+    - Both step2 and step4 callers updated to pass args.toxic_tokens_path
+
+run_all_methods.py
+  → SLM_Jailbreak/my_run_scripts/run_all_methods.py
+  Changes:
+    - New TOXIC_TOKENS_PATH config variable (currently set to the MiniCPM toxic tokens TSV)
+    - run_method() appends --toxic_tokens_path to the pipeline command when TOXIC_TOKENS_PATH is set
+
+Note on /tmp cache file
+  → /tmp/cache/modules/transformers_modules/Edcastro/
+      MiniCPM_hyphen_1B_hyphen_sft_hyphen_bf16_hyphen_edcastr_JavaScript_hyphen_onlyRejectingQuestions/
+      <commit_hash>/modeling_minicpm.py
+  This file lives in a temporary cache and is regenerated on each model download.
+  The permanent fix is the monkey-patch at the top of generate_completions.py,
+  which patches DynamicCache at runtime regardless of the cached file state.
